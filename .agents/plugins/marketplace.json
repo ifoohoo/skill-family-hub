@@ -1,0 +1,36 @@
+{
+  "name": "skill-family-hub",
+  "interface": {
+    "displayName": "Skill Family Hub"
+  },
+  "plugins": [
+    {
+      "name": "release-skill",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ifoohoo/release-skill",
+        "ref": "refs/tags/release-skill-v0.2.9",
+        "sha": "e09746d464a56560ede4726df73351a9e9e7f41e"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "DevOps"
+    },
+    {
+      "name": "skill-family-audit",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ifoohoo/skill-family-audit",
+        "ref": "refs/tags/skill-family-audit-v0.1.7-candidate",
+        "sha": "eacfd40e8627d740908a8c447a2513aa36d65a18"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
