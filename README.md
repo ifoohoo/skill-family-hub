@@ -1,8 +1,10 @@
 # skill-family-hub
 
+[简体中文](README.zh-CN.md)
+
 Verified skill-family governance and release plugins for Claude Code, CodeBuddy/WorkBuddy, OpenAI Codex, and Kimi Code.
 
-**Marketplace version:** `20260731103831`
+**Marketplace version:** `20260731110612`
 
 This repository contains only the marketplace manifests — plugin implementations live in their own repositories.
 
@@ -32,9 +34,9 @@ The environment variable above also causes `owner/repo` shorthand plugin install
 
 > **Tip:** If Git still rewrites HTTPS URLs to SSH, check your local Git `url.*.insteadOf` configuration.
 
-## 国内用户下载加速方式
+## Download acceleration for users in mainland China
 
-没有科学上网的手段，又需要拉取本站技能时，可参考下面的配置，让 Git 通过第三方下载代理访问本站在 GitHub 上公开发布的仓库。下面以 `ghfast.top` 为例：
+If direct GitHub access is unavailable, you may configure Git to use a third-party download proxy for this organization's public repositories. The following example uses `ghfast.top`:
 
 ```bash
 git config --global \
@@ -42,17 +44,17 @@ git config --global \
   "https://github.com/ifoohoo/"
 ```
 
-配置以后照常使用上面的安装命令即可。Git 只会在本机改写实际下载地址，市场清单和插件清单里记录的 GitHub 仓库地址不会改变。
+The rewrite is local to your Git configuration. Marketplace and plugin manifests continue to reference the canonical GitHub repositories.
 
-> **请注意：** 本站技能最终以 GitHub 上由 `ifoohoo` 维护的仓库为准。`ghfast.top` 是第三方下载代理，不是本站维护的镜像，也不参与版本发布。这种方式只适合公开仓库的只读拉取；不要通过代理访问私有仓库，也不要向代理发送 GitHub Token、密码等凭证。第三方代理可能中断服务或出现缓存延迟；市场仍以插件的 Git Tag 和完整 Commit SHA 核对版本，取不到对应提交时应停止安装。
+> **Source and security:** Repositories maintained by `ifoohoo` on GitHub are the source of truth. `ghfast.top` is a third-party proxy, not an official mirror. Use it only for read-only access to public repositories. Never send GitHub tokens, passwords, or private-repository traffic through the proxy. Stop the installation if the pinned Git tag and full commit SHA cannot be retrieved.
 
-查看当前 URL 改写配置：
+Inspect active URL rewrites:
 
 ```bash
 git config --global --get-regexp '^url\..*\.insteadof$'
 ```
 
-不再需要代理时，可以删除这项配置：
+Remove the rewrite when it is no longer needed:
 
 ```bash
 git config --global --unset-all \
@@ -66,11 +68,11 @@ git config --global --unset-all \
 | release-skill | 0.3.0 | `ifoohoo/release-skill` | ✓ | ✓ | ✓ | ✓ |
 | skill-family-audit | 0.1.7-candidate | `ifoohoo/skill-family-audit` | — | — | ✓ | — |
 
-「✓」means the plugin is listed in that platform's manifest; 「—」means it is not. The `platforms` field in the source is the sole explicit distribution switch; CodeBuddy/WorkBuddy's official fallback to `.claude-plugin/plugin.json` does not change distribution status.
+"✓" means the plugin is listed in that platform's manifest; "—" means it is not. The `platforms` field in the source is the sole explicit distribution switch; CodeBuddy/WorkBuddy's official fallback to `.claude-plugin/plugin.json` does not change distribution status.
 
 After adding the marketplace, install plugins with your platform's plugin manager (e.g. `/plugin install <name>@skill-family-hub` in Claude Code).
 
-## English Summary
+## About this marketplace
 
 **skill-family-hub** is the public marketplace index of verified skill-family governance and release plugins, targeting Claude Code, CodeBuddy/WorkBuddy, OpenAI Codex, and Kimi Code.
 
