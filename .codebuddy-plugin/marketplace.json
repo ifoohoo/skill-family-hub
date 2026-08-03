@@ -1,21 +1,9 @@
 {
   "name": "skill-family-hub",
-  "description": "Verified skill-family governance and release plugins for Claude Code, CodeBuddy/WorkBuddy, OpenAI Codex, and Kimi Code",
+  "description": "Verified skill-family lifecycle plugins for Claude Code, CodeBuddy/WorkBuddy, OpenAI Codex, and Kimi Code",
   "owner": {
     "name": "ifoohoo"
   },
-  "version": "20260731110612",
-  "plugins": [
-    {
-      "name": "release-skill",
-      "source": {
-        "source": "github",
-        "repo": "ifoohoo/release-skill",
-        "ref": "release-skill-v0.3.0",
-        "sha": "41b248da85f047e6feec7649ff3efb5e99a8fa27"
-      },
-      "description": "Safe preparation and frozen GitHub/npm production publishing with full happy end verification",
-      "version": "0.3.0"
-    }
-  ]
+  "version": "20260803025603",
+  "plugins": []
 }

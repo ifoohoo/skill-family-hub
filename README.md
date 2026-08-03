@@ -2,9 +2,9 @@
 
 [简体中文](README.zh-CN.md)
 
-Verified skill-family governance and release plugins for Claude Code, CodeBuddy/WorkBuddy, OpenAI Codex, and Kimi Code.
+Verified skill-family lifecycle plugins for Claude Code, CodeBuddy/WorkBuddy, OpenAI Codex, and Kimi Code.
 
-**Marketplace version:** `20260731110612`
+**Marketplace version:** `20260803025603`
 
 This repository contains only the marketplace manifests — plugin implementations live in their own repositories.
 
@@ -65,8 +65,9 @@ git config --global --unset-all \
 
 | Plugin | Version | Source | Claude Code | CodeBuddy | Codex | Kimi Code |
 | --- | --- | --- | --- | --- | --- | --- |
-| release-skill | 0.3.0 | `ifoohoo/release-skill` | ✓ | ✓ | ✓ | ✓ |
-| skill-family-audit | 0.1.7-candidate | `ifoohoo/skill-family-audit` | — | — | ✓ | — |
+| loop-agent | 0.2.0 | `mzdbxqh/loop-agent` | ✓ | — | ✓ | — |
+| release-skill | 0.4.0 | `ifoohoo/release-skill` | ✓ | — | ✓ | — |
+| skill-family-audit | 0.1.24-candidate | `ifoohoo/skill-family-audit` | — | — | ✓ | — |
 
 "✓" means the plugin is listed in that platform's manifest; "—" means it is not. The `platforms` field in the source is the sole explicit distribution switch; CodeBuddy/WorkBuddy's official fallback to `.claude-plugin/plugin.json` does not change distribution status.
 
@@ -74,9 +75,9 @@ After adding the marketplace, install plugins with your platform's plugin manage
 
 ## About this marketplace
 
-**skill-family-hub** is the public marketplace index of verified skill-family governance and release plugins, targeting Claude Code, CodeBuddy/WorkBuddy, OpenAI Codex, and Kimi Code.
+**skill-family-hub** is the public marketplace index of verified skill-family lifecycle plugins, targeting Claude Code, CodeBuddy/WorkBuddy, OpenAI Codex, and Kimi Code.
 
 - Add the marketplace with the commands above, then install individual plugins through each platform's plugin manager.
-- Currently distributed: `release-skill`, `skill-family-audit`. See the table for per-platform availability.
+- Currently distributed: `loop-agent`, `release-skill`, `skill-family-audit`. See the table for per-platform availability.
 - Each plugin's version authority lives in its own repository (self-contained manifests and git tags); this index only references them.
 - Licensed under MIT — see [LICENSE](LICENSE).

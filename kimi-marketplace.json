@@ -1,9 +1,4 @@
 {
   "version": "2",
-  "plugins": [
-    {
-      "id": "release-skill",
-      "source": "https://github.com/ifoohoo/release-skill"
-    }
-  ]
+  "plugins": []
 }
