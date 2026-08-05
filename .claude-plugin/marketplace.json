@@ -4,18 +4,18 @@
   "owner": {
     "name": "ifoohoo"
   },
-  "version": "20260803025603",
+  "version": "20260805021713",
   "plugins": [
     {
       "name": "loop-agent",
       "source": {
         "source": "github",
-        "repo": "mzdbxqh/loop-agent",
-        "ref": "v0.2.0",
-        "sha": "33dc436d0498fb96ca70e4e5f17232483931a61e"
+        "repo": "ifoohoo/loop-agent",
+        "ref": "v0.3.0",
+        "sha": "5360955a6b46b647b96f4077ce77d9f616d9330e"
       },
       "description": "Codex and Claude Code compatible layered loop orchestration plugin.",
-      "version": "0.2.0"
+      "version": "0.3.0"
     },
     {
       "name": "release-skill",

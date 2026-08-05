@@ -8,9 +8,9 @@
       "name": "loop-agent",
       "source": {
         "source": "url",
-        "url": "https://github.com/mzdbxqh/loop-agent",
-        "ref": "refs/tags/v0.2.0",
-        "sha": "33dc436d0498fb96ca70e4e5f17232483931a61e"
+        "url": "https://github.com/ifoohoo/loop-agent",
+        "ref": "refs/tags/v0.3.0",
+        "sha": "5360955a6b46b647b96f4077ce77d9f616d9330e"
       },
       "policy": {
         "installation": "AVAILABLE",
