@@ -1,4 +1,13 @@
 {
   "version": "2",
-  "plugins": []
+  "plugins": [
+    {
+      "id": "release-skill",
+      "source": "https://github.com/ifoohoo/release-skill"
+    },
+    {
+      "id": "skill-failure-auditor",
+      "source": "https://github.com/ifoohoo/skill-failure-auditor"
+    }
+  ]
 }

@@ -4,13 +4,13 @@
   "owner": {
     "name": "ifoohoo"
   },
-  "version": "20260805021713",
+  "version": "20260810113956",
   "plugins": [
     {
       "name": "loop-agent",
       "source": {
         "source": "github",
-        "repo": "ifoohoo/loop-agent",
+        "repo": "mzdbxqh/loop-agent",
         "ref": "v0.3.0",
         "sha": "5360955a6b46b647b96f4077ce77d9f616d9330e"
       },
@@ -22,11 +22,22 @@
       "source": {
         "source": "github",
         "repo": "ifoohoo/release-skill",
-        "ref": "release-skill-v0.4.0",
-        "sha": "6ef667df502ec76b48afb7160f0a7223076cdec8"
+        "ref": "release-skill-v0.4.1",
+        "sha": "329662acf7ac0428b1da2ac2672384568eded354"
       },
       "description": "Safe preparation and frozen GitHub/npm production publishing with full happy end verification",
-      "version": "0.4.0"
+      "version": "0.4.1"
+    },
+    {
+      "name": "skill-failure-auditor",
+      "source": {
+        "source": "github",
+        "repo": "ifoohoo/skill-failure-auditor",
+        "ref": "skill-failure-auditor-v1.0.0-candidate.15",
+        "sha": "75a3fb44ee521444bb7f5fa6a4a8e93bb6c87b9e"
+      },
+      "description": "Failure mode diagnosis and post-mortem auditing for skill-family plugins",
+      "version": "1.0.0-candidate.15"
     }
   ]
 }

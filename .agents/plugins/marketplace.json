@@ -8,7 +8,7 @@
       "name": "loop-agent",
       "source": {
         "source": "url",
-        "url": "https://github.com/ifoohoo/loop-agent",
+        "url": "https://github.com/mzdbxqh/loop-agent",
         "ref": "refs/tags/v0.3.0",
         "sha": "5360955a6b46b647b96f4077ce77d9f616d9330e"
       },
@@ -23,14 +23,28 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ifoohoo/release-skill",
-        "ref": "refs/tags/release-skill-v0.4.0",
-        "sha": "6ef667df502ec76b48afb7160f0a7223076cdec8"
+        "ref": "refs/tags/release-skill-v0.4.1",
+        "sha": "329662acf7ac0428b1da2ac2672384568eded354"
       },
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
       "category": "DevOps"
+    },
+    {
+      "name": "skill-failure-auditor",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ifoohoo/skill-failure-auditor",
+        "ref": "refs/tags/skill-failure-auditor-v1.0.0-candidate.15",
+        "sha": "75a3fb44ee521444bb7f5fa6a4a8e93bb6c87b9e"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
     },
     {
       "name": "skill-family-audit",
