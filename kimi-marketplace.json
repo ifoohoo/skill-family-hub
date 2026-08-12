@@ -8,6 +8,10 @@
     {
       "id": "skill-failure-auditor",
       "source": "https://github.com/ifoohoo/skill-failure-auditor"
+    },
+    {
+      "id": "skill-family-docs",
+      "source": "https://github.com/ifoohoo/skill-family-docs"
     }
   ]
 }

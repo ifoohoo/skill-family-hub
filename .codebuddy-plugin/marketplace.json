@@ -4,7 +4,7 @@
   "owner": {
     "name": "ifoohoo"
   },
-  "version": "20260810113956",
+  "version": "20260812102839",
   "plugins": [
     {
       "name": "release-skill",
@@ -27,6 +27,17 @@
       },
       "description": "Failure mode diagnosis and post-mortem auditing for skill-family plugins",
       "version": "1.0.0-candidate.15"
+    },
+    {
+      "name": "skill-family-docs",
+      "source": {
+        "source": "github",
+        "repo": "ifoohoo/skill-family-docs",
+        "ref": "skill-family-docs-v0.1.0",
+        "sha": "5976a78a51585af1a1fe89f33de72756e2fc5c60"
+      },
+      "description": "Multi-platform skill plugin (kimi + workbuddy/codebuddy): methodology for planning, writing, designing, and rendering public documentation sites with the skill-family-doc-render npm CLI.",
+      "version": "0.1.0"
     }
   ]
 }
