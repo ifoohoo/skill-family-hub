@@ -23,8 +23,8 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ifoohoo/release-skill",
-        "ref": "refs/tags/release-skill-v0.4.2",
-        "sha": "9242b25232c93af716b91f42c217aa14fead5507"
+        "ref": "refs/tags/release-skill-v0.5.0",
+        "sha": "085defbe747b0b6ecfa53c6b6751c36b14face9f"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -51,8 +51,8 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ifoohoo/skill-family-audit",
-        "ref": "refs/tags/skill-family-audit-v0.1.26-candidate",
-        "sha": "5ada1b4a1ed87a452c7153031b4d5fc7889bbaa0"
+        "ref": "refs/tags/skill-family-audit-v0.1.27-candidate",
+        "sha": "38f744ee20462a123a3d5e581042f34e769d1489"
       },
       "policy": {
         "installation": "AVAILABLE",
