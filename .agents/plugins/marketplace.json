@@ -37,8 +37,8 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ifoohoo/skill-failure-auditor",
-        "ref": "refs/tags/skill-failure-auditor-v1.0.0-candidate.15",
-        "sha": "75a3fb44ee521444bb7f5fa6a4a8e93bb6c87b9e"
+        "ref": "refs/tags/skill-failure-auditor-v1.0.0",
+        "sha": "36d2d424b923ac3524b7e29c8874f0e2491bf0ba"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -51,8 +51,8 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ifoohoo/skill-family-audit",
-        "ref": "refs/tags/skill-family-audit-v0.1.27-candidate",
-        "sha": "38f744ee20462a123a3d5e581042f34e769d1489"
+        "ref": "refs/tags/skill-family-audit-v1.0.0",
+        "sha": "971a6dc1c25fe1c65f8ecd67224b68ad0338714f"
       },
       "policy": {
         "installation": "AVAILABLE",

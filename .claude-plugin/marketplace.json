@@ -4,7 +4,7 @@
   "owner": {
     "name": "ifoohoo"
   },
-  "version": "20260816134236",
+  "version": "20260817185130",
   "plugins": [
     {
       "name": "loop-agent",
@@ -33,11 +33,11 @@
       "source": {
         "source": "github",
         "repo": "ifoohoo/skill-failure-auditor",
-        "ref": "skill-failure-auditor-v1.0.0-candidate.15",
-        "sha": "75a3fb44ee521444bb7f5fa6a4a8e93bb6c87b9e"
+        "ref": "skill-failure-auditor-v1.0.0",
+        "sha": "36d2d424b923ac3524b7e29c8874f0e2491bf0ba"
       },
       "description": "Failure mode diagnosis and post-mortem auditing for skill-family plugins",
-      "version": "1.0.0-candidate.15"
+      "version": "1.0.0"
     }
   ]
 }

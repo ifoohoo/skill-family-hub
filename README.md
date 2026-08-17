@@ -4,7 +4,7 @@
 
 Verified skill-family lifecycle plugins for Claude Code, CodeBuddy/WorkBuddy, OpenAI Codex, and Kimi Code.
 
-**Marketplace version:** `20260816134236`
+**Marketplace version:** `20260817185130`
 
 This repository contains only the marketplace manifests — plugin implementations live in their own repositories.
 
@@ -67,8 +67,8 @@ git config --global --unset-all \
 | --- | --- | --- | --- | --- | --- | --- |
 | loop-agent | 0.3.0 | `mzdbxqh/loop-agent` | ✓ | — | ✓ | — |
 | release-skill | 0.5.0 | `ifoohoo/release-skill` | ✓ | ✓ | ✓ | ✓ |
-| skill-failure-auditor | 1.0.0-candidate.15 | `ifoohoo/skill-failure-auditor` | ✓ | ✓ | ✓ | ✓ |
-| skill-family-audit | 0.1.27-candidate | `ifoohoo/skill-family-audit` | — | — | ✓ | — |
+| skill-failure-auditor | 1.0.0 | `ifoohoo/skill-failure-auditor` | ✓ | ✓ | ✓ | ✓ |
+| skill-family-audit | 1.0.0 | `ifoohoo/skill-family-audit` | — | — | ✓ | — |
 | skill-family-docs | 0.1.1 | `ifoohoo/skill-family-docs` | — | ✓ | — | ✓ |
 
 "✓" means the plugin is listed in that platform's manifest; "—" means it is not. The `platforms` field in the source is the sole explicit distribution switch; CodeBuddy/WorkBuddy's official fallback to `.claude-plugin/plugin.json` does not change distribution status.
