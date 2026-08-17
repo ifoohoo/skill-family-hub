@@ -4,18 +4,18 @@
   "owner": {
     "name": "ifoohoo"
   },
-  "version": "20260817185130",
+  "version": "20260818004656",
   "plugins": [
     {
       "name": "release-skill",
       "source": {
         "source": "github",
         "repo": "ifoohoo/release-skill",
-        "ref": "release-skill-v0.5.0",
-        "sha": "085defbe747b0b6ecfa53c6b6751c36b14face9f"
+        "ref": "release-skill-v0.5.1",
+        "sha": "1074b6df3a355c80f991c6bc7b69986b61e18138"
       },
       "description": "Safe preparation and frozen GitHub/npm production publishing with full happy end verification",
-      "version": "0.5.0"
+      "version": "0.5.1"
     },
     {
       "name": "skill-failure-auditor",
