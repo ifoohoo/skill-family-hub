@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "release-skill/update-proposal",
+  "unitId": "release-skill",
+  "version": "0.7.0",
+  "tag": "release-skill-v0.7.0",
+  "sha": "54951f546a07f46b68543507197dc4ccf3cbbaba",
+  "commit": "54951f546a07f46b68543507197dc4ccf3cbbaba",
+  "tree": "c773d84f5d9a1ff0fad50d599a4ea0316ad44306",
+  "manifestDigest": "3273272144128293e7eef2350b512f17dee9d00c1c9c9e26e24b90b482a0e7e3",
+  "planDigest": "8925168ab0b5313d760ab47c85d4e76d56aaf8f84eb76b161eb6b63acb74d37d",
+  "runId": "postverify-verify-1787342600961",
+  "publishedAt": "2026-08-21T20:01:31.984Z",
+  "verifyEvidence": {
+    "runId": "verify-1787342600961",
+    "status": "VERIFIED",
+    "finishedAt": "2026-08-21T20:03:38.694Z"
+  },
+  "changeSummary": "release release-skill 0.7.0 (tag release-skill-v0.7.0, commit 54951f546a07f46b68543507197dc4ccf3cbbaba)"
+}
