@@ -4,7 +4,7 @@
   "owner": {
     "name": "ifoohoo"
   },
-  "version": "20260818004656",
+  "version": "20260825020418",
   "plugins": [
     {
       "name": "loop-agent",
@@ -22,33 +22,33 @@
       "source": {
         "source": "github",
         "repo": "ifoohoo/release-skill",
-        "ref": "release-skill-v0.5.1",
-        "sha": "1074b6df3a355c80f991c6bc7b69986b61e18138"
+        "ref": "release-skill-v0.7.8",
+        "sha": "bd7c4638aa3d7e0b84ae149a19763e2df221c626"
       },
       "description": "Safe preparation and frozen GitHub/npm production publishing with full happy end verification",
-      "version": "0.5.1"
+      "version": "0.7.8"
     },
     {
       "name": "skill-failure-auditor",
       "source": {
         "source": "github",
         "repo": "ifoohoo/skill-failure-auditor",
-        "ref": "skill-failure-auditor-v1.0.0",
-        "sha": "36d2d424b923ac3524b7e29c8874f0e2491bf0ba"
+        "ref": "skill-failure-auditor-v1.1.5",
+        "sha": "8c25a430fa8a7e2cbb2984cb4c592caaf6c8ba77"
       },
       "description": "Failure mode diagnosis and post-mortem auditing for skill-family plugins",
-      "version": "1.0.0"
+      "version": "1.1.5"
     },
     {
       "name": "skill-family-audit",
       "source": {
         "source": "github",
         "repo": "ifoohoo/skill-family-audit",
-        "ref": "skill-family-audit-v1.1.0",
-        "sha": "efeb57d0437a1aead6eb5c4033701814fc877ae6"
+        "ref": "skill-family-audit-v1.1.2",
+        "sha": "a2a1e6497d5fb7a5e06e611c2850c698a60b3080"
       },
       "description": "Skill-family specification conformance, behavior, release and runtime auditing for skill-family plugins",
-      "version": "1.1.0"
+      "version": "1.1.2"
     }
   ]
 }

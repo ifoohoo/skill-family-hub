@@ -23,8 +23,8 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ifoohoo/release-skill",
-        "ref": "refs/tags/release-skill-v0.5.1",
-        "sha": "1074b6df3a355c80f991c6bc7b69986b61e18138"
+        "ref": "refs/tags/release-skill-v0.7.8",
+        "sha": "bd7c4638aa3d7e0b84ae149a19763e2df221c626"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -37,8 +37,8 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ifoohoo/skill-failure-auditor",
-        "ref": "refs/tags/skill-failure-auditor-v1.0.0",
-        "sha": "36d2d424b923ac3524b7e29c8874f0e2491bf0ba"
+        "ref": "refs/tags/skill-failure-auditor-v1.1.5",
+        "sha": "8c25a430fa8a7e2cbb2984cb4c592caaf6c8ba77"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -51,8 +51,8 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ifoohoo/skill-family-audit",
-        "ref": "refs/tags/skill-family-audit-v1.1.0",
-        "sha": "efeb57d0437a1aead6eb5c4033701814fc877ae6"
+        "ref": "refs/tags/skill-family-audit-v1.1.2",
+        "sha": "a2a1e6497d5fb7a5e06e611c2850c698a60b3080"
       },
       "policy": {
         "installation": "AVAILABLE",
