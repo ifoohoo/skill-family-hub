@@ -23,8 +23,8 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ifoohoo/release-skill",
-        "ref": "refs/tags/release-skill-v0.9.7",
-        "sha": "995f4fd0a9b6679bdb5de8fcedd93dd6bb9c7d1d"
+        "ref": "refs/tags/release-skill-v0.9.10",
+        "sha": "18f906569ca06823d4a2306761b181ae52cb5678"
       },
       "policy": {
         "installation": "AVAILABLE",

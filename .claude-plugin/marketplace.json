@@ -4,7 +4,7 @@
   "owner": {
     "name": "ifoohoo"
   },
-  "version": "20260904005138",
+  "version": "20260904101419",
   "plugins": [
     {
       "name": "loop-agent",
@@ -22,11 +22,11 @@
       "source": {
         "source": "github",
         "repo": "ifoohoo/release-skill",
-        "ref": "release-skill-v0.9.7",
-        "sha": "995f4fd0a9b6679bdb5de8fcedd93dd6bb9c7d1d"
+        "ref": "release-skill-v0.9.10",
+        "sha": "18f906569ca06823d4a2306761b181ae52cb5678"
       },
       "description": "Safe preparation and frozen GitHub/npm production publishing with full happy end verification",
-      "version": "0.9.7"
+      "version": "0.9.10"
     },
     {
       "name": "skill-failure-auditor",
