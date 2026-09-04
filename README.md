@@ -4,7 +4,7 @@
 
 Verified skill-family lifecycle plugins for Claude Code, CodeBuddy/WorkBuddy, OpenAI Codex, and Kimi Code.
 
-**Marketplace version:** `20260905015201`
+**Marketplace version:** `20260905020450`
 
 This repository contains only the marketplace manifests — plugin implementations live in their own repositories.
 
