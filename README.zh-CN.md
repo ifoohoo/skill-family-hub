@@ -4,7 +4,7 @@
 
 这是一个面向 Claude Code、CodeBuddy/WorkBuddy、OpenAI Codex 和 Kimi Code 的技能族全生命周期插件市场。进入市场的插件都带有经过核验的发布坐标。
 
-**市场版本：** `20260904143912`
+**市场版本：** `20260905015201`
 
 这个仓库只存放市场清单。每个插件的实现、版本和发布记录都在各自的仓库中维护。
 
@@ -65,6 +65,7 @@ git config --global --unset-all \
 
 | 插件 | 版本 | 源仓库 | Claude Code | CodeBuddy | Codex | Kimi Code |
 | --- | --- | --- | --- | --- | --- | --- |
+| foundation-adoption-review | 0.17.0 | `ifoohoo/foundation-adoption-review` | ✓ | — | ✓ | — |
 | loop-agent | 0.5.1 | `ifoohoo/loop-agent` | ✓ | — | ✓ | — |
 | release-skill | 0.9.12 | `ifoohoo/release-skill` | ✓ | ✓ | ✓ | ✓ |
 | skill-failure-auditor | 1.1.9 | `ifoohoo/skill-failure-auditor` | ✓ | ✓ | ✓ | ✓ |
@@ -77,6 +78,6 @@ git config --global --unset-all \
 
 ## 关于这个市场
 
-- 当前收录：`loop-agent`、`release-skill`、`skill-failure-auditor`、`skill-family-audit`、`skill-family-docs`。各平台是否可用，以表格为准。
+- 当前收录：`foundation-adoption-review`、`loop-agent`、`release-skill`、`skill-failure-auditor`、`skill-family-audit`、`skill-family-docs`。各平台是否可用，以表格为准。
 - 每个插件的版本以自身仓库中的清单和 Git Tag 为准，本市场只引用已经核验的发布坐标。
 - 采用 MIT 许可证，详见 [LICENSE](LICENSE)。
