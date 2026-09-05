@@ -4,18 +4,18 @@
   "owner": {
     "name": "ifoohoo"
   },
-  "version": "20260905020451",
+  "version": "20260905025624",
   "plugins": [
     {
       "name": "release-skill",
       "source": {
         "source": "github",
         "repo": "ifoohoo/release-skill",
-        "ref": "release-skill-v0.9.13",
-        "sha": "4817b2a4a42375e168272a8aaadba197065d90cd"
+        "ref": "release-skill-v0.9.14",
+        "sha": "4ab6a40810797f1ddd8cb2695b39c4cd10d66ea7"
       },
       "description": "Safe preparation and frozen GitHub/npm production publishing with full happy end verification",
-      "version": "0.9.13"
+      "version": "0.9.14"
     },
     {
       "name": "skill-failure-auditor",
@@ -33,11 +33,11 @@
       "source": {
         "source": "github",
         "repo": "ifoohoo/skill-family-docs",
-        "ref": "skill-family-docs-v0.1.1",
-        "sha": "67719cb220916c3496e5edea5597c9c91bce714e"
+        "ref": "skill-family-docs-v0.2.0",
+        "sha": "98b69ad15b74066a84d2679a753f4c8f9aa24633"
       },
       "description": "Multi-platform skill plugin (kimi + workbuddy/codebuddy): methodology for planning, writing, designing, and rendering public documentation sites with the skill-family-doc-render npm CLI.",
-      "version": "0.1.1"
+      "version": "0.2.0"
     }
   ]
 }
