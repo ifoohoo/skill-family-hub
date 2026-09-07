@@ -4,7 +4,7 @@
   "owner": {
     "name": "ifoohoo"
   },
-  "version": "20260905025624",
+  "version": "20260907095000",
   "plugins": [
     {
       "name": "release-skill",
@@ -33,11 +33,11 @@
       "source": {
         "source": "github",
         "repo": "ifoohoo/skill-family-docs",
-        "ref": "skill-family-docs-v0.2.0",
-        "sha": "98b69ad15b74066a84d2679a753f4c8f9aa24633"
+        "ref": "skill-family-docs-v0.2.1",
+        "sha": "7e63674e4911e269ef72bc2324ab96158f1e3d3d"
       },
       "description": "Multi-platform skill plugin (kimi + workbuddy/codebuddy): methodology for planning, writing, designing, and rendering public documentation sites with the skill-family-doc-render npm CLI.",
-      "version": "0.2.0"
+      "version": "0.2.1"
     }
   ]
 }
