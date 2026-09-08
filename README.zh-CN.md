@@ -2,9 +2,9 @@
 
 [English](README.md)
 
-这是一个面向 Claude Code、CodeBuddy/WorkBuddy、OpenAI Codex 和 Kimi Code 的技能族全生命周期插件市场。进入市场的插件都带有经过核验的发布坐标。
+这是一个面向 Claude Code、CodeBuddy/WorkBuddy、OpenAI Codex、Kimi Code 和 Qoder 的技能族全生命周期插件市场。进入市场的插件都带有经过核验的发布坐标。
 
-**市场版本：** `20260908082434`
+**市场版本：** `20260908203410`
 
 这个仓库只存放市场清单。每个插件的实现、版本和发布记录都在各自的仓库中维护。
 
@@ -16,6 +16,7 @@
 | CodeBuddy / WorkBuddy | `/plugin marketplace add ifoohoo/skill-family-hub` |
 | OpenAI Codex | `codex plugin marketplace add ifoohoo/skill-family-hub` |
 | Kimi Code | `/plugins marketplace https://raw.githubusercontent.com/ifoohoo/skill-family-hub/main/kimi-marketplace.json` |
+| Qoder | `qoder plugins marketplace add https://github.com/ifoohoo/skill-family-hub --scope user` |
 
 ## 使用 HTTPS，不走 SSH
 
@@ -63,14 +64,14 @@ git config --global --unset-all \
 
 ## 已收录插件
 
-| 插件 | 版本 | 源仓库 | Claude Code | CodeBuddy | Codex | Kimi Code |
-| --- | --- | --- | --- | --- | --- | --- |
-| foundation-adoption-review | 0.19.2 | `ifoohoo/foundation-adoption-review` | ✓ | ✓ | ✓ | ✓ |
-| loop-agent | 0.5.1 | `ifoohoo/loop-agent` | ✓ | — | ✓ | — |
-| release-skill | 0.9.15 | `ifoohoo/release-skill` | ✓ | ✓ | ✓ | ✓ |
-| skill-failure-auditor | 1.1.9 | `ifoohoo/skill-failure-auditor` | ✓ | ✓ | ✓ | ✓ |
-| skill-family-audit | 1.1.3 | `ifoohoo/skill-family-audit` | ✓ | — | ✓ | — |
-| skill-family-docs | 0.4.1 | `ifoohoo/skill-family-docs` | ✓ | ✓ | ✓ | ✓ |
+| 插件 | 版本 | 源仓库 | Claude Code | CodeBuddy | Codex | Kimi Code | Qoder |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| foundation-adoption-review | 0.19.3 | `ifoohoo/foundation-adoption-review` | ✓ | ✓ | ✓ | ✓ | ✓ |
+| loop-agent | 0.5.1 | `ifoohoo/loop-agent` | ✓ | — | ✓ | — | — |
+| release-skill | 0.9.15 | `ifoohoo/release-skill` | ✓ | ✓ | ✓ | ✓ | — |
+| skill-failure-auditor | 1.1.9 | `ifoohoo/skill-failure-auditor` | ✓ | ✓ | ✓ | ✓ | — |
+| skill-family-audit | 1.1.3 | `ifoohoo/skill-family-audit` | ✓ | — | ✓ | — | — |
+| skill-family-docs | 0.4.1 | `ifoohoo/skill-family-docs` | ✓ | ✓ | ✓ | ✓ | — |
 
 “✓”表示该插件已进入对应平台的市场清单，“—”表示没有进入。是否分发只看真源中的 `platforms` 开关；CodeBuddy/WorkBuddy 即使可以回退读取 `.claude-plugin/plugin.json`，也不会因此自动开启分发。
 

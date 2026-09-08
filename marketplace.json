@@ -1,0 +1,21 @@
+{
+  "name": "skill-family-hub",
+  "owner": {
+    "name": "ifoohoo"
+  },
+  "metadata": {
+    "version": "20260908203410"
+  },
+  "plugins": [
+    {
+      "name": "foundation-adoption-review",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ifoohoo/foundation-adoption-review",
+        "sha": "693d67474553e6bb7490792492dca44489cdaf06"
+      },
+      "category": "Developer Tools",
+      "strict": true
+    }
+  ]
+}
