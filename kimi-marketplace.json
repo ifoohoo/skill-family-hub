@@ -2,6 +2,10 @@
   "version": "2",
   "plugins": [
     {
+      "id": "foundation-adoption-review",
+      "source": "https://github.com/ifoohoo/foundation-adoption-review"
+    },
+    {
       "id": "release-skill",
       "source": "https://github.com/ifoohoo/release-skill"
     },
