@@ -4,29 +4,29 @@
   "owner": {
     "name": "ifoohoo"
   },
-  "version": "20260910182951",
+  "version": "20260911181713",
   "plugins": [
     {
       "name": "foundation-adoption-review",
       "source": {
         "source": "github",
         "repo": "ifoohoo/foundation-adoption-review",
-        "ref": "foundation-adoption-review-v0.19.3",
-        "sha": "693d67474553e6bb7490792492dca44489cdaf06"
+        "ref": "foundation-adoption-review-v0.20.0",
+        "sha": "1bb5e3114c9f7e7f9afbbd12e0056d48adc6e891"
       },
       "description": "Read-only diagnosis of Foundation capability adoption and migration plans.",
-      "version": "0.19.3"
+      "version": "0.20.0"
     },
     {
       "name": "release-skill",
       "source": {
         "source": "github",
         "repo": "ifoohoo/release-skill",
-        "ref": "release-skill-v0.9.17",
-        "sha": "8208ce5dc71f7d3eb67a5966675320a9c8c6269d"
+        "ref": "release-skill-v0.9.18",
+        "sha": "5806a114f7396d9e954f84f9dfebd9845a57ea6c"
       },
       "description": "Safe preparation and frozen GitHub/npm production publishing with full happy end verification",
-      "version": "0.9.17"
+      "version": "0.9.18"
     },
     {
       "name": "skill-failure-auditor",
