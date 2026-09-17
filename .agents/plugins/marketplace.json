@@ -37,8 +37,8 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ifoohoo/release-skill",
-        "ref": "refs/tags/release-skill-v0.9.20",
-        "sha": "28a717741f1cf52e37d08bac28647ce903665c1e"
+        "ref": "refs/tags/release-skill-v0.9.21",
+        "sha": "d8e56d4ab093fca5229d7fb9425e7ed0443802e3"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -51,8 +51,8 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ifoohoo/skill-failure-auditor",
-        "ref": "refs/tags/skill-failure-auditor-v1.1.9",
-        "sha": "70a895be4b612890db4401053cd6c8f3b64b64cd"
+        "ref": "refs/tags/skill-failure-auditor-v1.1.10",
+        "sha": "7ccf7c67146fafa82d5398c5ec02129f5d626db3"
       },
       "policy": {
         "installation": "AVAILABLE",

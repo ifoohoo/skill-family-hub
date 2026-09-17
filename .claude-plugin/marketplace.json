@@ -4,7 +4,7 @@
   "owner": {
     "name": "ifoohoo"
   },
-  "version": "20260917071154",
+  "version": "20260917093052",
   "plugins": [
     {
       "name": "foundation-adoption-review",
@@ -33,22 +33,22 @@
       "source": {
         "source": "github",
         "repo": "ifoohoo/release-skill",
-        "ref": "release-skill-v0.9.20",
-        "sha": "28a717741f1cf52e37d08bac28647ce903665c1e"
+        "ref": "release-skill-v0.9.21",
+        "sha": "d8e56d4ab093fca5229d7fb9425e7ed0443802e3"
       },
       "description": "Safe preparation and frozen GitHub/npm production publishing with full happy end verification",
-      "version": "0.9.20"
+      "version": "0.9.21"
     },
     {
       "name": "skill-failure-auditor",
       "source": {
         "source": "github",
         "repo": "ifoohoo/skill-failure-auditor",
-        "ref": "skill-failure-auditor-v1.1.9",
-        "sha": "70a895be4b612890db4401053cd6c8f3b64b64cd"
+        "ref": "skill-failure-auditor-v1.1.10",
+        "sha": "7ccf7c67146fafa82d5398c5ec02129f5d626db3"
       },
       "description": "Failure mode diagnosis and post-mortem auditing for skill-family plugins",
-      "version": "1.1.9"
+      "version": "1.1.10"
     },
     {
       "name": "skill-family-audit",
