@@ -10,7 +10,7 @@
         "source": "url",
         "url": "https://github.com/ifoohoo/foundation-adoption-review",
         "ref": "refs/tags/foundation-adoption-review-v0.20.0",
-        "sha": "1bb5e3114c9f7e7f9afbbd12e0056d48adc6e891"
+        "sha": "a9ce241615be00193d6891a88410cc37735d5e06"
       },
       "policy": {
         "installation": "AVAILABLE",

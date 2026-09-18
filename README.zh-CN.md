@@ -4,7 +4,7 @@
 
 这是一个面向 Claude Code、CodeBuddy/WorkBuddy、OpenAI Codex、Kimi Code 和 Qoder 的技能族全生命周期插件市场。进入市场的插件都带有经过核验的发布坐标。
 
-**市场版本：** `20260917150821`
+**市场版本：** `20260919024725`
 
 这个仓库只存放市场清单。每个插件的实现、版本和发布记录都在各自的仓库中维护。
 
@@ -66,7 +66,7 @@ git config --global --unset-all \
 
 | 插件 | 版本 | 源仓库 | Claude Code | CodeBuddy | Codex | Kimi Code | Qoder |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| foundation-adoption-review | 0.20.0 | `ifoohoo/foundation-adoption-review` | ✓ | ✓ | ✓ | ✓ | ✓ |
+| foundation-adoption-review | 0.22.0 | `ifoohoo/foundation-adoption-review` | ✓ | ✓ | ✓ | ✓ | ✓ |
 | loop-agent | 0.5.1 | `ifoohoo/loop-agent` | ✓ | — | ✓ | — | — |
 | release-skill | 0.9.22 | `ifoohoo/release-skill` | ✓ | ✓ | ✓ | ✓ | ✓ |
 | skill-failure-auditor | 1.1.10 | `ifoohoo/skill-failure-auditor` | ✓ | ✓ | ✓ | ✓ | — |
