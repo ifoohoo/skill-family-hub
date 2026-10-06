@@ -4,7 +4,7 @@
 
 这是一个面向 Claude Code、CodeBuddy/WorkBuddy、OpenAI Codex、Kimi Code 和 Qoder 的技能族全生命周期插件市场。进入市场的插件都带有经过核验的发布坐标。
 
-**市场版本：** `20260928051746`
+**市场版本：** `20261006094650`
 
 这个仓库只存放市场清单。每个插件的实现、版本和发布记录都在各自的仓库中维护。
 
@@ -70,8 +70,8 @@ git config --global --unset-all \
 | loop-agent | 0.5.1 | `ifoohoo/loop-agent` | ✓ | — | ✓ | — | — |
 | release-skill | 0.9.23 | `ifoohoo/release-skill` | ✓ | ✓ | ✓ | ✓ | ✓ |
 | skill-failure-auditor | 1.1.10 | `ifoohoo/skill-failure-auditor` | ✓ | ✓ | ✓ | ✓ | — |
-| skill-family-audit | 1.1.5 | `ifoohoo/skill-family-audit` | ✓ | — | ✓ | — | — |
-| skill-family-docs | 0.4.5 | `ifoohoo/skill-family-docs` | ✓ | ✓ | ✓ | ✓ | — |
+| skill-family-audit | 1.1.14 | `ifoohoo/skill-family-audit` | ✓ | — | ✓ | — | — |
+| skill-family-docs | 0.5.0 | `ifoohoo/skill-family-docs` | ✓ | ✓ | ✓ | ✓ | — |
 
 “✓”表示该插件已进入对应平台的市场清单，“—”表示没有进入。是否分发只看真源中的 `platforms` 开关；CodeBuddy/WorkBuddy 即使可以回退读取 `.claude-plugin/plugin.json`，也不会因此自动开启分发。
 
