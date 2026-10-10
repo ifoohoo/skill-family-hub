@@ -4,7 +4,7 @@
   "owner": {
     "name": "ifoohoo"
   },
-  "version": "20261006142044",
+  "version": "20261010202140",
   "plugins": [
     {
       "name": "foundation-adoption-review",
@@ -33,11 +33,11 @@
       "source": {
         "source": "github",
         "repo": "ifoohoo/release-skill",
-        "ref": "release-skill-v0.9.23",
-        "sha": "289cdcbcb8a41baf38afc009990cb1b767a03292"
+        "ref": "release-skill-v0.9.24",
+        "sha": "99ec8a6aff5fa3c83c78082aa982acebea6e0491"
       },
       "description": "Safe preparation and frozen GitHub/npm production publishing with full happy end verification",
-      "version": "0.9.23"
+      "version": "0.9.24"
     },
     {
       "name": "skill-failure-auditor",
