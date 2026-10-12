@@ -4,7 +4,7 @@
   "owner": {
     "name": "ifoohoo"
   },
-  "version": "20261012002651",
+  "version": "20261012063731",
   "plugins": [
     {
       "name": "foundation-adoption-review",
@@ -55,22 +55,22 @@
       "source": {
         "source": "github",
         "repo": "ifoohoo/skill-family-audit",
-        "ref": "skill-family-audit-v1.1.15",
-        "sha": "a96c9a0195633b1c1aa698e17636f18d0cd0d584"
+        "ref": "skill-family-audit-v1.1.30",
+        "sha": "e4724a9b36950ef6741fd81387266a33089ff6ff"
       },
       "description": "Skill-family specification conformance, behavior, release and runtime auditing for skill-family plugins",
-      "version": "1.1.15"
+      "version": "1.1.30"
     },
     {
       "name": "skill-family-docs",
       "source": {
         "source": "github",
         "repo": "ifoohoo/skill-family-docs",
-        "ref": "skill-family-docs-v0.6.0",
-        "sha": "7e5584743af0ef2c90f2fdef580bc53c9ac69301"
+        "ref": "skill-family-docs-v0.6.1",
+        "sha": "075b07981bbdd18989ad7d182c05d1d39dfd996e"
       },
       "description": "Multi-platform skill plugin for Claude Code, Codex, Kimi Code, and WorkBuddy/CodeBuddy: methodology for planning, writing, designing, and rendering public documentation sites with the skill-family-doc-render npm CLI.",
-      "version": "0.6.0"
+      "version": "0.6.1"
     }
   ]
 }
