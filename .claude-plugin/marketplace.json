@@ -4,7 +4,7 @@
   "owner": {
     "name": "ifoohoo"
   },
-  "version": "20261013102514",
+  "version": "20261013125548",
   "plugins": [
     {
       "name": "foundation-adoption-review",
@@ -44,11 +44,11 @@
       "source": {
         "source": "github",
         "repo": "ifoohoo/skill-failure-auditor",
-        "ref": "skill-failure-auditor-v1.1.10",
-        "sha": "7ccf7c67146fafa82d5398c5ec02129f5d626db3"
+        "ref": "skill-failure-auditor-v1.1.14",
+        "sha": "fc9f1d378d6f1e432e86ae7cc2e01ccddc53923e"
       },
       "description": "Failure mode diagnosis and post-mortem auditing for skill-family plugins",
-      "version": "1.1.10"
+      "version": "1.1.14"
     },
     {
       "name": "skill-family-audit",
