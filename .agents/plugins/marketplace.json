@@ -79,8 +79,8 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ifoohoo/skill-family-docs",
-        "ref": "refs/tags/skill-family-docs-v0.6.3",
-        "sha": "ca6652612af9717888dacfdc3e5cd92540cb05ba"
+        "ref": "refs/tags/skill-family-docs-v0.6.4",
+        "sha": "13ef8a98bda909b73d30229de9295924de8dc1b4"
       },
       "policy": {
         "installation": "AVAILABLE",
