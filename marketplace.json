@@ -4,7 +4,7 @@
     "name": "ifoohoo"
   },
   "metadata": {
-    "version": "20261016172433"
+    "version": "20261016202640"
   },
   "plugins": [
     {
@@ -22,7 +22,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ifoohoo/release-skill",
-        "sha": "5ec763f75ba21f1b56c30207322b9fad8c7793b4"
+        "sha": "eb7011c91f07ac0a2ec7e2d735cb9f280ba586c2"
       },
       "category": "DevOps",
       "strict": true
