@@ -4,18 +4,18 @@
   "owner": {
     "name": "ifoohoo"
   },
-  "version": "20261016233558",
+  "version": "20261017023320",
   "plugins": [
     {
       "name": "foundation-adoption-review",
       "source": {
         "source": "github",
         "repo": "ifoohoo/foundation-adoption-review",
-        "ref": "foundation-adoption-review-v0.25.0",
-        "sha": "e581ebfad571480bfb37f92ac4193f520da9e4c6"
+        "ref": "foundation-adoption-review-v0.26.0",
+        "sha": "0af941d92e275f24b12f3f3896d9b7ff61905242"
       },
       "description": "Read-only diagnosis of Foundation capability adoption and migration plans.",
-      "version": "0.25.0"
+      "version": "0.26.0"
     },
     {
       "name": "loop-agent",
@@ -55,11 +55,11 @@
       "source": {
         "source": "github",
         "repo": "ifoohoo/skill-family-audit",
-        "ref": "skill-family-audit-v1.1.38",
-        "sha": "0da26f03f2bf3e9c8caab943c6fbf7409d0c4348"
+        "ref": "skill-family-audit-v1.1.40",
+        "sha": "0014ad5b7145931a7d8cc313a71b668c47f19c59"
       },
       "description": "Skill-family specification conformance, behavior, release and runtime auditing for skill-family plugins",
-      "version": "1.1.38"
+      "version": "1.1.40"
     },
     {
       "name": "skill-family-docs",
