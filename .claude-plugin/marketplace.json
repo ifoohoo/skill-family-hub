@@ -4,7 +4,7 @@
   "owner": {
     "name": "ifoohoo"
   },
-  "version": "20261017092409",
+  "version": "20261018085236",
   "plugins": [
     {
       "name": "foundation-adoption-review",
@@ -66,11 +66,11 @@
       "source": {
         "source": "github",
         "repo": "ifoohoo/skill-family-docs",
-        "ref": "skill-family-docs-v0.6.5",
-        "sha": "36b303d7bc18a72f679b831ca191a98a8e728396"
+        "ref": "skill-family-docs-v0.6.6",
+        "sha": "084b53a60bf871dd311e3eb62b398a9c48e3821b"
       },
       "description": "Multi-platform skill plugin for Claude Code, Codex, Kimi Code, and WorkBuddy/CodeBuddy: methodology for planning, writing, designing, and rendering public documentation sites with the skill-family-doc-render npm CLI.",
-      "version": "0.6.5"
+      "version": "0.6.6"
     }
   ]
 }
