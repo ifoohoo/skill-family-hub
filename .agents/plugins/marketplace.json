@@ -37,8 +37,8 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ifoohoo/release-skill",
-        "ref": "refs/tags/release-skill-v0.9.32",
-        "sha": "fb626af47b3ea53f3b5b4d7ad759995c7e7577e1"
+        "ref": "refs/tags/release-skill-v0.9.33",
+        "sha": "db015e8d9a8f8be7f2bc012d11a230ac983435b5"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -79,8 +79,8 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ifoohoo/skill-family-docs",
-        "ref": "refs/tags/skill-family-docs-v0.6.6",
-        "sha": "084b53a60bf871dd311e3eb62b398a9c48e3821b"
+        "ref": "refs/tags/skill-family-docs-v0.6.7",
+        "sha": "7433554d2e2995729c2aafee52eb525ca827446d"
       },
       "policy": {
         "installation": "AVAILABLE",

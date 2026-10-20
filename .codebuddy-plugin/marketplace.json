@@ -4,7 +4,7 @@
   "owner": {
     "name": "ifoohoo"
   },
-  "version": "20261018085236",
+  "version": "20261019202604",
   "plugins": [
     {
       "name": "foundation-adoption-review",
@@ -22,11 +22,11 @@
       "source": {
         "source": "github",
         "repo": "ifoohoo/release-skill",
-        "ref": "release-skill-v0.9.32",
-        "sha": "fb626af47b3ea53f3b5b4d7ad759995c7e7577e1"
+        "ref": "release-skill-v0.9.33",
+        "sha": "db015e8d9a8f8be7f2bc012d11a230ac983435b5"
       },
       "description": "Safe preparation and frozen GitHub/npm production publishing with full happy end verification",
-      "version": "0.9.32"
+      "version": "0.9.33"
     },
     {
       "name": "skill-failure-auditor",
@@ -55,11 +55,11 @@
       "source": {
         "source": "github",
         "repo": "ifoohoo/skill-family-docs",
-        "ref": "skill-family-docs-v0.6.6",
-        "sha": "084b53a60bf871dd311e3eb62b398a9c48e3821b"
+        "ref": "skill-family-docs-v0.6.7",
+        "sha": "7433554d2e2995729c2aafee52eb525ca827446d"
       },
       "description": "Multi-platform skill plugin for Claude Code, Codex, Kimi Code, and WorkBuddy/CodeBuddy: methodology for planning, writing, designing, and rendering public documentation sites with the skill-family-doc-render npm CLI.",
-      "version": "0.6.6"
+      "version": "0.6.7"
     }
   ]
 }
