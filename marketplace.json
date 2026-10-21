@@ -4,7 +4,7 @@
     "name": "ifoohoo"
   },
   "metadata": {
-    "version": "20261021161111"
+    "version": "20261022012107"
   },
   "plugins": [
     {
@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ifoohoo/foundation-adoption-review",
-        "sha": "91b8df13b7b5834074ba1bf0c3532f98582398ae"
+        "sha": "617d01af9b5d63e8c0323f84ef6d5335dde70d23"
       },
       "category": "Developer Tools",
       "strict": true
