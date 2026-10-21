@@ -4,7 +4,7 @@
 
 Verified skill-family lifecycle plugins for Claude Code, CodeBuddy/WorkBuddy, OpenAI Codex, and Kimi Code.
 
-**Marketplace version:** `20261019202604`
+**Marketplace version:** `20261021161111`
 
 This repository contains only the marketplace manifests — plugin implementations live in their own repositories.
 
@@ -66,7 +66,7 @@ git config --global --unset-all \
 
 | Plugin | Version | Source | Claude Code | CodeBuddy | Codex | Kimi Code | Qoder |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| foundation-adoption-review | 0.26.0 | `ifoohoo/foundation-adoption-review` | ✓ | ✓ | ✓ | ✓ | ✓ |
+| foundation-adoption-review | 0.27.0 | `ifoohoo/foundation-adoption-review` | ✓ | ✓ | ✓ | ✓ | ✓ |
 | loop-agent | 0.5.1 | `ifoohoo/loop-agent` | ✓ | — | ✓ | — | — |
 | release-skill | 0.9.33 | `ifoohoo/release-skill` | ✓ | ✓ | ✓ | ✓ | ✓ |
 | skill-failure-auditor | 1.1.14 | `ifoohoo/skill-failure-auditor` | ✓ | ✓ | ✓ | ✓ | — |
