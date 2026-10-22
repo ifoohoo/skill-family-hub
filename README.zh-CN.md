@@ -4,7 +4,7 @@
 
 这是一个面向 Claude Code、CodeBuddy/WorkBuddy、OpenAI Codex、Kimi Code 和 Qoder 的技能族全生命周期插件市场。进入市场的插件都带有经过核验的发布坐标。
 
-**市场版本：** `20261022232537`
+**市场版本：** `20261022232940`
 
 这个仓库只存放市场清单。每个插件的实现、版本和发布记录都在各自的仓库中维护。
 
@@ -72,6 +72,7 @@ git config --global --unset-all \
 | skill-failure-auditor | 1.1.14 | `ifoohoo/skill-failure-auditor` | ✓ | ✓ | ✓ | ✓ | — |
 | skill-family-audit | 1.1.44 | `ifoohoo/skill-family-audit` | ✓ | ✓ | ✓ | — | — |
 | skill-family-docs | 0.6.7 | `ifoohoo/skill-family-docs` | ✓ | ✓ | ✓ | ✓ | — |
+| skill-family-test | 0.1.0 | `ifoohoo/skill-family-test` | — | — | ✓ | — | — |
 
 “✓”表示该插件已进入对应平台的市场清单，“—”表示没有进入。是否分发只看真源中的 `platforms` 开关；CodeBuddy/WorkBuddy 即使可以回退读取 `.claude-plugin/plugin.json`，也不会因此自动开启分发。
 
@@ -79,6 +80,6 @@ git config --global --unset-all \
 
 ## 关于这个市场
 
-- 当前收录：`foundation-adoption-review`、`loop-agent`、`release-skill`、`skill-failure-auditor`、`skill-family-audit`、`skill-family-docs`。各平台是否可用，以表格为准。
+- 当前收录：`foundation-adoption-review`、`loop-agent`、`release-skill`、`skill-failure-auditor`、`skill-family-audit`、`skill-family-docs`、`skill-family-test`。各平台是否可用，以表格为准。
 - 每个插件的版本以自身仓库中的清单和 Git Tag 为准，本市场只引用已经核验的发布坐标。
 - 采用 MIT 许可证，详见 [LICENSE](LICENSE)。
