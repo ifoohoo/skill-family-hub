@@ -4,18 +4,18 @@
   "owner": {
     "name": "ifoohoo"
   },
-  "version": "20261025055346",
+  "version": "20261025065603",
   "plugins": [
     {
       "name": "foundation-adoption-review",
       "source": {
         "source": "github",
         "repo": "ifoohoo/foundation-adoption-review",
-        "ref": "foundation-adoption-review-v0.27.1",
-        "sha": "617d01af9b5d63e8c0323f84ef6d5335dde70d23"
+        "ref": "foundation-adoption-review-v0.28.0",
+        "sha": "437b45868165062f4035b72cda784c0d2eae1419"
       },
       "description": "Read-only diagnosis of Foundation capability adoption and migration plans.",
-      "version": "0.27.1"
+      "version": "0.28.0"
     },
     {
       "name": "loop-agent",
