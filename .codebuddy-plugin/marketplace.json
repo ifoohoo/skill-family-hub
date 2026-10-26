@@ -4,7 +4,7 @@
   "owner": {
     "name": "ifoohoo"
   },
-  "version": "20261026060145",
+  "version": "20261026060817",
   "plugins": [
     {
       "name": "foundation-adoption-review",
@@ -44,11 +44,11 @@
       "source": {
         "source": "github",
         "repo": "ifoohoo/skill-family-audit",
-        "ref": "skill-family-audit-v1.1.44",
-        "sha": "7b3cf912e3e0fc7e6065b3de7efdde4167985631"
+        "ref": "skill-family-audit-v1.1.46",
+        "sha": "ff849f9c604544a0a4a30ea3b490661ad8eb5d7f"
       },
       "description": "Skill-family specification conformance, behavior, release and runtime auditing for skill-family plugins",
-      "version": "1.1.44"
+      "version": "1.1.46"
     },
     {
       "name": "skill-family-docs",

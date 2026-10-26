@@ -65,8 +65,8 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ifoohoo/skill-family-audit",
-        "ref": "refs/tags/skill-family-audit-v1.1.44",
-        "sha": "7b3cf912e3e0fc7e6065b3de7efdde4167985631"
+        "ref": "refs/tags/skill-family-audit-v1.1.46",
+        "sha": "ff849f9c604544a0a4a30ea3b490661ad8eb5d7f"
       },
       "policy": {
         "installation": "AVAILABLE",
