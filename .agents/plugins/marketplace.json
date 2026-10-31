@@ -9,8 +9,8 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ifoohoo/foundation-adoption-review",
-        "ref": "refs/tags/foundation-adoption-review-v0.29.0",
-        "sha": "8ce94b7f7b8cca4cd29bea6ccb99c6b1b35aaa08"
+        "ref": "refs/tags/foundation-adoption-review-v0.30.0",
+        "sha": "1203db1d628298c0e4cf0a0f1a6576d26e3b8424"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -93,8 +93,8 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ifoohoo/skill-family-test",
-        "ref": "refs/tags/skill-family-test-v0.2.0",
-        "sha": "ef120566419b0c00ebb2e8fa0972612ddeac8a89"
+        "ref": "refs/tags/skill-family-test-v0.2.1",
+        "sha": "0e91fe27c8cd6240938f4cbb929a2dfaaaa052a4"
       },
       "policy": {
         "installation": "AVAILABLE",
