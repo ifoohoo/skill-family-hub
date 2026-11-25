@@ -4,40 +4,40 @@
   "owner": {
     "name": "ifoohoo"
   },
-  "version": "20261107000540",
+  "version": "20261125203500",
   "plugins": [
     {
       "name": "foundation-adoption-review",
       "source": {
         "source": "github",
         "repo": "ifoohoo/foundation-adoption-review",
-        "ref": "foundation-adoption-review-v0.39.0",
-        "sha": "8559a70b4f2c6edc2b6b8446b3c995e3b6a19c6a"
+        "ref": "foundation-adoption-review-v0.39.1",
+        "sha": "627c03abf0ab06f7653ef7d492bdb52f4c5a7401"
       },
-      "description": "Read-only diagnosis of Foundation capability adoption and migration plans.",
-      "version": "0.39.0"
+      "description": "Authorized initialization of a skill family engineering project from a proven minimal business Skill, plus read-only Foundation adoption diagnosis and static engineering checks.",
+      "version": "0.39.1"
     },
     {
       "name": "release-skill",
       "source": {
         "source": "github",
         "repo": "ifoohoo/release-skill",
-        "ref": "release-skill-v0.10.1",
-        "sha": "e3ecc329441941f193fd927d5f4a8d7b7b1c5a78"
+        "ref": "release-skill-v0.10.2",
+        "sha": "d60134268a0687372aa35bd972ae0f2cf6e73faf"
       },
       "description": "Safe preparation and frozen GitHub/npm production publishing with full happy end verification",
-      "version": "0.10.1"
+      "version": "0.10.2"
     },
     {
       "name": "skill-failure-auditor",
       "source": {
         "source": "github",
         "repo": "ifoohoo/skill-failure-auditor",
-        "ref": "skill-failure-auditor-v1.1.14",
-        "sha": "fc9f1d378d6f1e432e86ae7cc2e01ccddc53923e"
+        "ref": "skill-failure-auditor-v1.1.18",
+        "sha": "8c548c18eb44c815fa526367d06ff23ca999d5b3"
       },
       "description": "Failure mode diagnosis and post-mortem auditing for skill-family plugins",
-      "version": "1.1.14"
+      "version": "1.1.18"
     },
     {
       "name": "skill-family-audit",
@@ -55,11 +55,22 @@
       "source": {
         "source": "github",
         "repo": "ifoohoo/skill-family-docs",
-        "ref": "skill-family-docs-v0.6.8",
-        "sha": "dcfcde2459150a74c9b5e4377fa42c75444ded1c"
+        "ref": "skill-family-docs-v0.7.0",
+        "sha": "8cb8336dce00d40965dc6a5d3d4719c5278ad472"
       },
-      "description": "Multi-platform skill plugin for Claude Code, Codex, Kimi Code, and WorkBuddy/CodeBuddy: methodology for planning, writing, designing, and rendering public documentation sites with the skill-family-doc-render npm CLI.",
-      "version": "0.6.8"
+      "description": "Five-host, five-skill plugin for Claude Code, Codex, Kimi Code, WorkBuddy/CodeBuddy, and Antigravity: planning, writing, building, and checking modern public documentation sites with skill-family-doc-render.",
+      "version": "0.7.0"
+    },
+    {
+      "name": "skill-family-test",
+      "source": {
+        "source": "github",
+        "repo": "ifoohoo/skill-family-test",
+        "ref": "skill-family-test-v0.2.3",
+        "sha": "727cbfcd4c2409d20efe471320d7c386c0f32a21"
+      },
+      "description": "Plans bounded tests for skill-family changes and organizes authorized execution, valid reuse, and result handoff under an accepted plan.",
+      "version": "0.2.3"
     }
   ]
 }

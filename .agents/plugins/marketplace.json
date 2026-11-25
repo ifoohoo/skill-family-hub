@@ -9,8 +9,8 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ifoohoo/foundation-adoption-review",
-        "ref": "refs/tags/foundation-adoption-review-v0.39.0",
-        "sha": "8559a70b4f2c6edc2b6b8446b3c995e3b6a19c6a"
+        "ref": "refs/tags/foundation-adoption-review-v0.39.1",
+        "sha": "627c03abf0ab06f7653ef7d492bdb52f4c5a7401"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -37,8 +37,8 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ifoohoo/release-skill",
-        "ref": "refs/tags/release-skill-v0.10.1",
-        "sha": "e3ecc329441941f193fd927d5f4a8d7b7b1c5a78"
+        "ref": "refs/tags/release-skill-v0.10.2",
+        "sha": "d60134268a0687372aa35bd972ae0f2cf6e73faf"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -51,8 +51,8 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ifoohoo/skill-failure-auditor",
-        "ref": "refs/tags/skill-failure-auditor-v1.1.14",
-        "sha": "fc9f1d378d6f1e432e86ae7cc2e01ccddc53923e"
+        "ref": "refs/tags/skill-failure-auditor-v1.1.18",
+        "sha": "8c548c18eb44c815fa526367d06ff23ca999d5b3"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -79,8 +79,8 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ifoohoo/skill-family-docs",
-        "ref": "refs/tags/skill-family-docs-v0.6.8",
-        "sha": "dcfcde2459150a74c9b5e4377fa42c75444ded1c"
+        "ref": "refs/tags/skill-family-docs-v0.7.0",
+        "sha": "8cb8336dce00d40965dc6a5d3d4719c5278ad472"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -93,8 +93,8 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ifoohoo/skill-family-test",
-        "ref": "refs/tags/skill-family-test-v0.2.1",
-        "sha": "0e91fe27c8cd6240938f4cbb929a2dfaaaa052a4"
+        "ref": "refs/tags/skill-family-test-v0.2.3",
+        "sha": "727cbfcd4c2409d20efe471320d7c386c0f32a21"
       },
       "policy": {
         "installation": "AVAILABLE",

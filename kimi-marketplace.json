@@ -16,6 +16,10 @@
     {
       "id": "skill-family-docs",
       "source": "https://github.com/ifoohoo/skill-family-docs"
+    },
+    {
+      "id": "skill-family-test",
+      "source": "https://github.com/ifoohoo/skill-family-test"
     }
   ]
 }

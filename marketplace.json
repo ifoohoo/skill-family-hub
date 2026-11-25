@@ -4,7 +4,7 @@
     "name": "ifoohoo"
   },
   "metadata": {
-    "version": "20261107000540"
+    "version": "20261125203500"
   },
   "plugins": [
     {
@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ifoohoo/foundation-adoption-review",
-        "sha": "8559a70b4f2c6edc2b6b8446b3c995e3b6a19c6a"
+        "sha": "627c03abf0ab06f7653ef7d492bdb52f4c5a7401"
       },
       "category": "Developer Tools",
       "strict": true
@@ -22,9 +22,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ifoohoo/release-skill",
-        "sha": "e3ecc329441941f193fd927d5f4a8d7b7b1c5a78"
+        "sha": "d60134268a0687372aa35bd972ae0f2cf6e73faf"
       },
       "category": "DevOps",
+      "strict": true
+    },
+    {
+      "name": "skill-family-test",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ifoohoo/skill-family-test",
+        "sha": "727cbfcd4c2409d20efe471320d7c386c0f32a21"
+      },
+      "category": "Developer Tools",
       "strict": true
     }
   ]

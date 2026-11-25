@@ -2,13 +2,15 @@
 
 [English](README.md)
 
-这是一个面向 Claude Code、CodeBuddy/WorkBuddy、OpenAI Codex、Kimi Code 和 Qoder 的技能族全生命周期插件市场。进入市场的插件都带有经过核验的发布坐标。
+面向 Claude Code、CodeBuddy/WorkBuddy、OpenAI Codex、Kimi Code 与 Qoder 的技能族全生命周期插件市场。收录进本市场的每个插件都绑定了经核验的 Git 标签与完整提交哈希。
 
-**市场版本：** `20261107000540`
+**市场版本：** `20261125203500`
 
-这个仓库只存放市场清单。每个插件的实现、版本和发布记录都在各自的仓库中维护。
+本仓库只发布多平台市场索引清单；各插件的业务代码、版本标签与发布记录均在其各自源仓库内独立维护。
 
 ## 添加市场
+
+在所用宿主环境中执行对应命令，即可接入本市场：
 
 | 平台 | 命令 |
 | --- | --- |
@@ -18,26 +20,26 @@
 | Kimi Code | `/plugins marketplace https://raw.githubusercontent.com/ifoohoo/skill-family-hub/main/kimi-marketplace.json` |
 | Qoder | `qoder plugins marketplace add https://github.com/ifoohoo/skill-family-hub --scope user` |
 
-## 使用 HTTPS，不走 SSH
+## 使用 HTTPS 拉取（免配 SSH）
 
-Claude Code 默认会通过 SSH 解析 GitHub 的 `owner/repo` 简写，本市场中使用 `source: "github"` 的插件也一样。如果本机没有配置 GitHub 账号、SSH 密钥或 SSH Agent，请在启动 Claude Code **之前**设置下面的环境变量，强制使用 HTTPS：
+Claude Code 默认通过 SSH 解析 GitHub 的 `owner/repo` 简写（含本市场中 `source: "github"` 的插件条目）。如果本机未配置 GitHub 账号、SSH 密钥或 SSH Agent，请在启动 Claude Code **之前**设置以下环境变量，强制改走 HTTPS 克隆：
 
 - **macOS / Linux：** `export CLAUDE_CODE_PLUGIN_PREFER_HTTPS=1`
 - **Windows PowerShell：** `$env:CLAUDE_CODE_PLUGIN_PREFER_HTTPS='1'`
 
-也可以直接使用完整 HTTPS 地址添加市场：
+也可以直接用完整 HTTPS 地址添加市场：
 
 ```
 /plugin marketplace add https://github.com/ifoohoo/skill-family-hub.git
 ```
 
-设置该环境变量后，通过 `owner/repo` 简写安装插件时也会改用 HTTPS。公开仓库通过 HTTPS 拉取，不需要登录 GitHub。
+设置上述环境变量后，后续通过 `owner/repo` 简写安装具体插件时也会走 HTTPS；公开仓库走 HTTPS 拉取无需登录 GitHub。
 
-> 如果 Git 仍然把 HTTPS 改写成 SSH，请检查本机的 `url.*.insteadOf` 配置。
+> 若设置后 Git 仍把 HTTPS 地址改写成 SSH，请检查本机 Git 配置中是否存在 `url.*.insteadOf` 规则。
 
 ## 国内用户下载加速方式
 
-没有科学上网的手段，又需要拉取本站技能时，可参考下面的配置，让 Git 通过第三方下载代理访问本站在 GitHub 上公开发布的仓库。下面以 `ghfast.top` 为例：
+如果网络环境无法直连 GitHub，可在本地配置 Git URL 改写规则，通过第三方下载代理拉取本站在 GitHub 上公开发布的仓库。下面以 `ghfast.top` 为例：
 
 ```bash
 git config --global \
@@ -45,17 +47,17 @@ git config --global \
   "https://github.com/ifoohoo/"
 ```
 
-配置以后照常使用上面的安装命令即可。Git 只会在本机改写实际下载地址，市场清单和插件清单里记录的 GitHub 仓库地址不会改变。
+配置完成后，照常执行上方的添加市场与安装插件命令即可。这项改写只作用于本机 Git 下载地址，市场清单和插件清单记录的权威 GitHub 仓库坐标不会改变。
 
-> **请注意：** 本站技能最终以 GitHub 上由 `ifoohoo` 维护的仓库为准。`ghfast.top` 是第三方下载代理，不是本站维护的镜像，也不参与版本发布。这种方式只适合公开仓库的只读拉取；不要通过代理访问私有仓库，也不要向代理发送 GitHub Token、密码等凭证。第三方代理可能中断服务或出现缓存延迟；市场仍以插件的 Git Tag 和完整 Commit SHA 核对版本，取不到对应提交时应停止安装。
+> **安全与版本核验边界：** 本站技能最终以 GitHub 上由 `ifoohoo` 维护的仓库为准。`ghfast.top` 属于第三方下载代理，并非本站官方镜像，也不参与版本发布。该方式仅限公开仓库的只读拉取；不要通过代理访问私有仓库，也绝不要向代理发送 GitHub Token、密码等敏感凭证。若代理中断或缓存滞后导致取不到插件锁定的 Git Tag 与完整 Commit SHA，请立即停止安装。
 
-查看当前 URL 改写配置：
+查看本机当前生效的 URL 改写规则：
 
 ```bash
 git config --global --get-regexp '^url\..*\.insteadof$'
 ```
 
-不再需要代理时，可以删除这项配置：
+网络恢复直连或不再需要代理时，执行以下命令移除改写：
 
 ```bash
 git config --global --unset-all \
@@ -66,20 +68,34 @@ git config --global --unset-all \
 
 | 插件 | 版本 | 源仓库 | Claude Code | CodeBuddy | Codex | Kimi Code | Qoder |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| foundation-adoption-review | 0.39.0 | `ifoohoo/foundation-adoption-review` | ✓ | ✓ | ✓ | ✓ | ✓ |
+| foundation-adoption-review | 0.39.1 | `ifoohoo/foundation-adoption-review` · [在线文档](https://ifoohoo.github.io/skill-family-foundation-site/) | ✓ | ✓ | ✓ | ✓ | ✓ |
 | loop-agent | 0.5.1 | `ifoohoo/loop-agent` | ✓ | — | ✓ | — | — |
-| release-skill | 0.10.1 | `ifoohoo/release-skill` | ✓ | ✓ | ✓ | ✓ | ✓ |
-| skill-failure-auditor | 1.1.14 | `ifoohoo/skill-failure-auditor` | ✓ | ✓ | ✓ | ✓ | — |
+| release-skill | 0.10.2 | `ifoohoo/release-skill` | ✓ | ✓ | ✓ | ✓ | ✓ |
+| skill-failure-auditor | 1.1.18 | `ifoohoo/skill-failure-auditor` | ✓ | ✓ | ✓ | ✓ | — |
 | skill-family-audit | 1.1.46 | `ifoohoo/skill-family-audit` | ✓ | ✓ | ✓ | — | — |
-| skill-family-docs | 0.6.8 | `ifoohoo/skill-family-docs` | ✓ | ✓ | ✓ | ✓ | — |
-| skill-family-test | 0.2.1 | `ifoohoo/skill-family-test` | — | — | ✓ | — | — |
+| skill-family-docs | 0.7.0 | `ifoohoo/skill-family-docs` · [在线文档](https://ifoohoo.github.io/skill-family-doc-render-site/) | ✓ | ✓ | ✓ | ✓ | — |
+| skill-family-test | 0.2.3 | `ifoohoo/skill-family-test` | ✓ | ✓ | ✓ | ✓ | ✓ |
 
-“✓”表示该插件已进入对应平台的市场清单，“—”表示没有进入。是否分发只看真源中的 `platforms` 开关；CodeBuddy/WorkBuddy 即使可以回退读取 `.claude-plugin/plugin.json`，也不会因此自动开启分发。
+表中“✓”表示该插件已写入对应宿主的市场清单，“—”表示未向该宿主分发。各平台是否分发完全取决于事实源中的 `platforms` 显式开关；即使 CodeBuddy/WorkBuddy 支持回退读取 `.claude-plugin/plugin.json`，也不会在开关关闭时自动混入分发清单。
 
-添加市场后，请使用对应平台的插件管理器安装具体插件。例如在 Claude Code 中执行 `/plugin install <name>@skill-family-hub`。
+添加市场后，即可通过所用宿主的插件管理器按需安装，例如在 Claude Code 中执行 `/plugin install <name>@skill-family-hub`。
+
+使用 `skill-family-test` 插件执行测试计划校验、运行收据核收或增量失效计算时，请同步在目标项目或运行环境中安装配套公开 npm 包 `skill-family-test`（提供 `sft` 命令行工具）：`pnpm add -D skill-family-test` 或 `npm install -D skill-family-test`。
+
+## Google Antigravity 直装指引
+
+Google Antigravity 通过官方中心目录管理插件，第三方技能族插件可直接将对应发布标签克隆至 `~/.gemini/config/plugins/<插件名>` 由宿主自动识别加载：
+
+- `foundation-adoption-review`（`0.39.1`）：`git clone --branch foundation-adoption-review-v0.39.1 https://github.com/ifoohoo/foundation-adoption-review.git ~/.gemini/config/plugins/foundation-adoption-review`
+- `loop-agent`（`0.5.1`）：`git clone --branch v0.5.1 https://github.com/ifoohoo/loop-agent.git ~/.gemini/config/plugins/loop-agent`
+- `release-skill`（`0.10.2`）：`git clone --branch release-skill-v0.10.2 https://github.com/ifoohoo/release-skill.git ~/.gemini/config/plugins/release-skill`
+- `skill-failure-auditor`（`1.1.18`）：`git clone --branch skill-failure-auditor-v1.1.18 https://github.com/ifoohoo/skill-failure-auditor.git ~/.gemini/config/plugins/skill-failure-auditor`
+- `skill-family-audit`（`1.1.46`）：`git clone --branch skill-family-audit-v1.1.46 https://github.com/ifoohoo/skill-family-audit.git ~/.gemini/config/plugins/skill-family-audit`
+- `skill-family-docs`（`0.7.0`）：`git clone --branch skill-family-docs-v0.7.0 https://github.com/ifoohoo/skill-family-docs.git ~/.gemini/config/plugins/skill-family-docs`
+- `skill-family-test`（`0.2.3`）：`git clone --branch skill-family-test-v0.2.3 https://github.com/ifoohoo/skill-family-test.git ~/.gemini/config/plugins/skill-family-test`
 
 ## 关于这个市场
 
-- 当前收录：`foundation-adoption-review`、`loop-agent`、`release-skill`、`skill-failure-auditor`、`skill-family-audit`、`skill-family-docs`、`skill-family-test`。各平台是否可用，以表格为准。
-- 每个插件的版本以自身仓库中的清单和 Git Tag 为准，本市场只引用已经核验的发布坐标。
-- 采用 MIT 许可证，详见 [LICENSE](LICENSE)。
+- 当前收录：`foundation-adoption-review`、`loop-agent`、`release-skill`、`skill-failure-auditor`、`skill-family-audit`、`skill-family-docs`、`skill-family-test`。各宿主平台的具体开放情况以上表为准。
+- 插件版本权威归属各插件自身仓库的清单与不可变 Git Tag，本市场仅引用已完成核验的发布坐标。
+- 采用 MIT 许可证发布，详见 [LICENSE](LICENSE)。
