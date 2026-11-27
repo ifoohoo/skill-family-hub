@@ -9,8 +9,8 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ifoohoo/foundation-adoption-review",
-        "ref": "refs/tags/foundation-adoption-review-v0.39.1",
-        "sha": "627c03abf0ab06f7653ef7d492bdb52f4c5a7401"
+        "ref": "refs/tags/foundation-adoption-review-v0.39.2",
+        "sha": "0fed4bd9e48546e0a804eb5cd0e7842655c4d779"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -19,26 +19,12 @@
       "category": "Developer Tools"
     },
     {
-      "name": "loop-agent",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/ifoohoo/loop-agent",
-        "ref": "refs/tags/v0.5.1",
-        "sha": "61cc033581daa9e2e39e22d94de81240dd2b5f10"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Productivity"
-    },
-    {
       "name": "release-skill",
       "source": {
         "source": "url",
         "url": "https://github.com/ifoohoo/release-skill",
-        "ref": "refs/tags/release-skill-v0.10.2",
-        "sha": "d60134268a0687372aa35bd972ae0f2cf6e73faf"
+        "ref": "refs/tags/release-skill-v0.10.5",
+        "sha": "5844b325621c363173b17eb7b3a149baba506c52"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -51,8 +37,8 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ifoohoo/skill-failure-auditor",
-        "ref": "refs/tags/skill-failure-auditor-v1.1.18",
-        "sha": "8c548c18eb44c815fa526367d06ff23ca999d5b3"
+        "ref": "refs/tags/skill-failure-auditor-v1.1.19",
+        "sha": "e82be07bf720e5e967d12d9a5dafd06c8fe61e25"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -65,8 +51,8 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ifoohoo/skill-family-audit",
-        "ref": "refs/tags/skill-family-audit-v1.1.46",
-        "sha": "ff849f9c604544a0a4a30ea3b490661ad8eb5d7f"
+        "ref": "refs/tags/skill-family-audit-v1.1.67",
+        "sha": "c51e60cdb70fb779190f9c68d7d4b8837d88ad45"
       },
       "policy": {
         "installation": "AVAILABLE",

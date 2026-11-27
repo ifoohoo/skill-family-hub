@@ -4,7 +4,7 @@
 
 面向 Claude Code、CodeBuddy/WorkBuddy、OpenAI Codex、Kimi Code 与 Qoder 的技能族全生命周期插件市场。收录进本市场的每个插件都绑定了经核验的 Git 标签与完整提交哈希。
 
-**市场版本：** `20261125203500`
+**市场版本：** `20261127191200`
 
 本仓库只发布多平台市场索引清单；各插件的业务代码、版本标签与发布记录均在其各自源仓库内独立维护。
 
@@ -68,11 +68,10 @@ git config --global --unset-all \
 
 | 插件 | 版本 | 源仓库 | Claude Code | CodeBuddy | Codex | Kimi Code | Qoder |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| foundation-adoption-review | 0.39.1 | `ifoohoo/foundation-adoption-review` · [在线文档](https://ifoohoo.github.io/skill-family-foundation-site/) | ✓ | ✓ | ✓ | ✓ | ✓ |
-| loop-agent | 0.5.1 | `ifoohoo/loop-agent` | ✓ | — | ✓ | — | — |
-| release-skill | 0.10.2 | `ifoohoo/release-skill` | ✓ | ✓ | ✓ | ✓ | ✓ |
-| skill-failure-auditor | 1.1.18 | `ifoohoo/skill-failure-auditor` | ✓ | ✓ | ✓ | ✓ | — |
-| skill-family-audit | 1.1.46 | `ifoohoo/skill-family-audit` | ✓ | ✓ | ✓ | — | — |
+| foundation-adoption-review | 0.39.2 | `ifoohoo/foundation-adoption-review` · [在线文档](https://ifoohoo.github.io/skill-family-foundation-site/) | ✓ | ✓ | ✓ | ✓ | ✓ |
+| release-skill | 0.10.5 | `ifoohoo/release-skill` | ✓ | ✓ | ✓ | ✓ | ✓ |
+| skill-failure-auditor | 1.1.19 | `ifoohoo/skill-failure-auditor` | ✓ | ✓ | ✓ | ✓ | — |
+| skill-family-audit | 1.1.67 | `ifoohoo/skill-family-audit` | ✓ | ✓ | ✓ | — | — |
 | skill-family-docs | 0.7.0 | `ifoohoo/skill-family-docs` · [在线文档](https://ifoohoo.github.io/skill-family-doc-render-site/) | ✓ | ✓ | ✓ | ✓ | — |
 | skill-family-test | 0.2.3 | `ifoohoo/skill-family-test` | ✓ | ✓ | ✓ | ✓ | ✓ |
 
@@ -86,16 +85,21 @@ git config --global --unset-all \
 
 Google Antigravity 通过官方中心目录管理插件，第三方技能族插件可直接将对应发布标签克隆至 `~/.gemini/config/plugins/<插件名>` 由宿主自动识别加载：
 
-- `foundation-adoption-review`（`0.39.1`）：`git clone --branch foundation-adoption-review-v0.39.1 https://github.com/ifoohoo/foundation-adoption-review.git ~/.gemini/config/plugins/foundation-adoption-review`
-- `loop-agent`（`0.5.1`）：`git clone --branch v0.5.1 https://github.com/ifoohoo/loop-agent.git ~/.gemini/config/plugins/loop-agent`
-- `release-skill`（`0.10.2`）：`git clone --branch release-skill-v0.10.2 https://github.com/ifoohoo/release-skill.git ~/.gemini/config/plugins/release-skill`
-- `skill-failure-auditor`（`1.1.18`）：`git clone --branch skill-failure-auditor-v1.1.18 https://github.com/ifoohoo/skill-failure-auditor.git ~/.gemini/config/plugins/skill-failure-auditor`
-- `skill-family-audit`（`1.1.46`）：`git clone --branch skill-family-audit-v1.1.46 https://github.com/ifoohoo/skill-family-audit.git ~/.gemini/config/plugins/skill-family-audit`
+- `foundation-adoption-review`（`0.39.2`）：`git clone --branch foundation-adoption-review-v0.39.2 https://github.com/ifoohoo/foundation-adoption-review.git ~/.gemini/config/plugins/foundation-adoption-review`
+- `release-skill`（`0.10.5`）：`git clone --branch release-skill-v0.10.5 https://github.com/ifoohoo/release-skill.git ~/.gemini/config/plugins/release-skill`
+- `skill-failure-auditor`（`1.1.19`）：`git clone --branch skill-failure-auditor-v1.1.19 https://github.com/ifoohoo/skill-failure-auditor.git ~/.gemini/config/plugins/skill-failure-auditor`
+- `skill-family-audit`（`1.1.67`）：`git clone --branch skill-family-audit-v1.1.67 https://github.com/ifoohoo/skill-family-audit.git ~/.gemini/config/plugins/skill-family-audit`
 - `skill-family-docs`（`0.7.0`）：`git clone --branch skill-family-docs-v0.7.0 https://github.com/ifoohoo/skill-family-docs.git ~/.gemini/config/plugins/skill-family-docs`
 - `skill-family-test`（`0.2.3`）：`git clone --branch skill-family-test-v0.2.3 https://github.com/ifoohoo/skill-family-test.git ~/.gemini/config/plugins/skill-family-test`
 
+## 已退役归档与迁移指引
+
+以下插件已从新用户默认推荐安装清单中移除，仅保留归档说明供存量用户查阅与平滑迁移：
+
+- **`loop-agent`（归档版本 `0.5.1`）：** 证据封存与评测判据契约已分别归并入 skill-family-contracts 与 skill-family-eval，本独立插件已转为退役归档状态。 该插件已由 `skill-family-eval` 接替，请通过公开 npm 包 `npm install -g skill-family-eval` 安装迁移。
+
 ## 关于这个市场
 
-- 当前收录：`foundation-adoption-review`、`loop-agent`、`release-skill`、`skill-failure-auditor`、`skill-family-audit`、`skill-family-docs`、`skill-family-test`。各宿主平台的具体开放情况以上表为准。
+- 当前收录：`foundation-adoption-review`、`release-skill`、`skill-failure-auditor`、`skill-family-audit`、`skill-family-docs`、`skill-family-test`。各宿主平台的具体开放情况以上表为准。
 - 插件版本权威归属各插件自身仓库的清单与不可变 Git Tag，本市场仅引用已完成核验的发布坐标。
 - 采用 MIT 许可证发布，详见 [LICENSE](LICENSE)。

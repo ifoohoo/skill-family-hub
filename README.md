@@ -4,7 +4,7 @@
 
 Verified skill-family lifecycle plugins for Claude Code, CodeBuddy/WorkBuddy, OpenAI Codex, and Kimi Code.
 
-**Marketplace version:** `20261125203500`
+**Marketplace version:** `20261127191200`
 
 This repository contains only the marketplace manifests — plugin implementations live in their own repositories.
 
@@ -66,11 +66,10 @@ git config --global --unset-all \
 
 | Plugin | Version | Source | Claude Code | CodeBuddy | Codex | Kimi Code | Qoder |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| foundation-adoption-review | 0.39.1 | `ifoohoo/foundation-adoption-review` · [Docs](https://ifoohoo.github.io/skill-family-foundation-site/) | ✓ | ✓ | ✓ | ✓ | ✓ |
-| loop-agent | 0.5.1 | `ifoohoo/loop-agent` | ✓ | — | ✓ | — | — |
-| release-skill | 0.10.2 | `ifoohoo/release-skill` | ✓ | ✓ | ✓ | ✓ | ✓ |
-| skill-failure-auditor | 1.1.18 | `ifoohoo/skill-failure-auditor` | ✓ | ✓ | ✓ | ✓ | — |
-| skill-family-audit | 1.1.46 | `ifoohoo/skill-family-audit` | ✓ | ✓ | ✓ | — | — |
+| foundation-adoption-review | 0.39.2 | `ifoohoo/foundation-adoption-review` · [Docs](https://ifoohoo.github.io/skill-family-foundation-site/) | ✓ | ✓ | ✓ | ✓ | ✓ |
+| release-skill | 0.10.5 | `ifoohoo/release-skill` | ✓ | ✓ | ✓ | ✓ | ✓ |
+| skill-failure-auditor | 1.1.19 | `ifoohoo/skill-failure-auditor` | ✓ | ✓ | ✓ | ✓ | — |
+| skill-family-audit | 1.1.67 | `ifoohoo/skill-family-audit` | ✓ | ✓ | ✓ | — | — |
 | skill-family-docs | 0.7.0 | `ifoohoo/skill-family-docs` · [Docs](https://ifoohoo.github.io/skill-family-doc-render-site/) | ✓ | ✓ | ✓ | ✓ | — |
 | skill-family-test | 0.2.3 | `ifoohoo/skill-family-test` | ✓ | ✓ | ✓ | ✓ | ✓ |
 
@@ -84,19 +83,24 @@ When using `skill-family-test` for test-plan validation, run-receipt recording, 
 
 Google Antigravity manages plugins through its official central directory. Third-party skill-family plugins can be cloned directly from their release tag into `~/.gemini/config/plugins/<plugin-name>` for automatic host discovery:
 
-- `foundation-adoption-review` (`0.39.1`): `git clone --branch foundation-adoption-review-v0.39.1 https://github.com/ifoohoo/foundation-adoption-review.git ~/.gemini/config/plugins/foundation-adoption-review`
-- `loop-agent` (`0.5.1`): `git clone --branch v0.5.1 https://github.com/ifoohoo/loop-agent.git ~/.gemini/config/plugins/loop-agent`
-- `release-skill` (`0.10.2`): `git clone --branch release-skill-v0.10.2 https://github.com/ifoohoo/release-skill.git ~/.gemini/config/plugins/release-skill`
-- `skill-failure-auditor` (`1.1.18`): `git clone --branch skill-failure-auditor-v1.1.18 https://github.com/ifoohoo/skill-failure-auditor.git ~/.gemini/config/plugins/skill-failure-auditor`
-- `skill-family-audit` (`1.1.46`): `git clone --branch skill-family-audit-v1.1.46 https://github.com/ifoohoo/skill-family-audit.git ~/.gemini/config/plugins/skill-family-audit`
+- `foundation-adoption-review` (`0.39.2`): `git clone --branch foundation-adoption-review-v0.39.2 https://github.com/ifoohoo/foundation-adoption-review.git ~/.gemini/config/plugins/foundation-adoption-review`
+- `release-skill` (`0.10.5`): `git clone --branch release-skill-v0.10.5 https://github.com/ifoohoo/release-skill.git ~/.gemini/config/plugins/release-skill`
+- `skill-failure-auditor` (`1.1.19`): `git clone --branch skill-failure-auditor-v1.1.19 https://github.com/ifoohoo/skill-failure-auditor.git ~/.gemini/config/plugins/skill-failure-auditor`
+- `skill-family-audit` (`1.1.67`): `git clone --branch skill-family-audit-v1.1.67 https://github.com/ifoohoo/skill-family-audit.git ~/.gemini/config/plugins/skill-family-audit`
 - `skill-family-docs` (`0.7.0`): `git clone --branch skill-family-docs-v0.7.0 https://github.com/ifoohoo/skill-family-docs.git ~/.gemini/config/plugins/skill-family-docs`
 - `skill-family-test` (`0.2.3`): `git clone --branch skill-family-test-v0.2.3 https://github.com/ifoohoo/skill-family-test.git ~/.gemini/config/plugins/skill-family-test`
+
+## Retired & Archived Plugins
+
+The following plugins have been retired and excluded from new-user installation manifests:
+
+- **`loop-agent` (archived at `0.5.1`):** 证据封存与评测判据契约已分别归并入 skill-family-contracts 与 skill-family-eval，本独立插件已转为退役归档状态。 Superseded by `skill-family-eval` — migrate via companion CLI/package `npm install -g skill-family-eval`.
 
 ## About this marketplace
 
 **skill-family-hub** is the public marketplace index of verified skill-family lifecycle plugins, targeting Claude Code, CodeBuddy/WorkBuddy, OpenAI Codex, Kimi Code, and Qoder.
 
 - Add the marketplace with the commands above, then install individual plugins through each platform's plugin manager.
-- Currently distributed: `foundation-adoption-review`, `loop-agent`, `release-skill`, `skill-failure-auditor`, `skill-family-audit`, `skill-family-docs`, `skill-family-test`. See the table for per-platform availability.
+- Currently distributed: `foundation-adoption-review`, `release-skill`, `skill-failure-auditor`, `skill-family-audit`, `skill-family-docs`, `skill-family-test`. See the table for per-platform availability.
 - Each plugin's version authority lives in its own repository (self-contained manifests and git tags); this index only references them.
 - Licensed under MIT — see [LICENSE](LICENSE).

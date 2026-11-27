@@ -4,51 +4,51 @@
   "owner": {
     "name": "ifoohoo"
   },
-  "version": "20261125203500",
+  "version": "20261127191200",
   "plugins": [
     {
       "name": "foundation-adoption-review",
       "source": {
         "source": "github",
         "repo": "ifoohoo/foundation-adoption-review",
-        "ref": "foundation-adoption-review-v0.39.1",
-        "sha": "627c03abf0ab06f7653ef7d492bdb52f4c5a7401"
+        "ref": "foundation-adoption-review-v0.39.2",
+        "sha": "0fed4bd9e48546e0a804eb5cd0e7842655c4d779"
       },
       "description": "Authorized initialization of a skill family engineering project from a proven minimal business Skill, plus read-only Foundation adoption diagnosis and static engineering checks.",
-      "version": "0.39.1"
+      "version": "0.39.2"
     },
     {
       "name": "release-skill",
       "source": {
         "source": "github",
         "repo": "ifoohoo/release-skill",
-        "ref": "release-skill-v0.10.2",
-        "sha": "d60134268a0687372aa35bd972ae0f2cf6e73faf"
+        "ref": "release-skill-v0.10.5",
+        "sha": "5844b325621c363173b17eb7b3a149baba506c52"
       },
       "description": "Safe preparation and frozen GitHub/npm production publishing with full happy end verification",
-      "version": "0.10.2"
+      "version": "0.10.5"
     },
     {
       "name": "skill-failure-auditor",
       "source": {
         "source": "github",
         "repo": "ifoohoo/skill-failure-auditor",
-        "ref": "skill-failure-auditor-v1.1.18",
-        "sha": "8c548c18eb44c815fa526367d06ff23ca999d5b3"
+        "ref": "skill-failure-auditor-v1.1.19",
+        "sha": "e82be07bf720e5e967d12d9a5dafd06c8fe61e25"
       },
       "description": "Failure mode diagnosis and post-mortem auditing for skill-family plugins",
-      "version": "1.1.18"
+      "version": "1.1.19"
     },
     {
       "name": "skill-family-audit",
       "source": {
         "source": "github",
         "repo": "ifoohoo/skill-family-audit",
-        "ref": "skill-family-audit-v1.1.46",
-        "sha": "ff849f9c604544a0a4a30ea3b490661ad8eb5d7f"
+        "ref": "skill-family-audit-v1.1.67",
+        "sha": "c51e60cdb70fb779190f9c68d7d4b8837d88ad45"
       },
       "description": "Skill-family specification conformance, behavior, release and runtime auditing for skill-family plugins",
-      "version": "1.1.46"
+      "version": "1.1.67"
     },
     {
       "name": "skill-family-docs",
