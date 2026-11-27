@@ -4,7 +4,7 @@
     "name": "ifoohoo"
   },
   "metadata": {
-    "version": "20261127191200"
+    "version": "20261127225800"
   },
   "plugins": [
     {
@@ -32,7 +32,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ifoohoo/skill-family-test",
-        "sha": "727cbfcd4c2409d20efe471320d7c386c0f32a21"
+        "sha": "48c129958c9c1b1fcdf46e925d352b47a97e80e9"
       },
       "category": "Developer Tools",
       "strict": true

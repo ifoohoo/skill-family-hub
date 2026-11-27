@@ -79,8 +79,8 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ifoohoo/skill-family-test",
-        "ref": "refs/tags/skill-family-test-v0.2.3",
-        "sha": "727cbfcd4c2409d20efe471320d7c386c0f32a21"
+        "ref": "refs/tags/skill-family-test-v0.2.4",
+        "sha": "48c129958c9c1b1fcdf46e925d352b47a97e80e9"
       },
       "policy": {
         "installation": "AVAILABLE",

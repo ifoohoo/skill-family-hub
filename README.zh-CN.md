@@ -4,7 +4,7 @@
 
 面向 Claude Code、CodeBuddy/WorkBuddy、OpenAI Codex、Kimi Code 与 Qoder 的技能族全生命周期插件市场。收录进本市场的每个插件都绑定了经核验的 Git 标签与完整提交哈希。
 
-**市场版本：** `20261127191200`
+**市场版本：** `20261127225800`
 
 本仓库只发布多平台市场索引清单；各插件的业务代码、版本标签与发布记录均在其各自源仓库内独立维护。
 
@@ -73,7 +73,7 @@ git config --global --unset-all \
 | skill-failure-auditor | 1.1.19 | `ifoohoo/skill-failure-auditor` | ✓ | ✓ | ✓ | ✓ | — |
 | skill-family-audit | 1.1.67 | `ifoohoo/skill-family-audit` | ✓ | ✓ | ✓ | — | — |
 | skill-family-docs | 0.7.0 | `ifoohoo/skill-family-docs` · [在线文档](https://ifoohoo.github.io/skill-family-doc-render-site/) | ✓ | ✓ | ✓ | ✓ | — |
-| skill-family-test | 0.2.3 | `ifoohoo/skill-family-test` | ✓ | ✓ | ✓ | ✓ | ✓ |
+| skill-family-test | 0.2.4 | `ifoohoo/skill-family-test` | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 表中“✓”表示该插件已写入对应宿主的市场清单，“—”表示未向该宿主分发。各平台是否分发完全取决于事实源中的 `platforms` 显式开关；即使 CodeBuddy/WorkBuddy 支持回退读取 `.claude-plugin/plugin.json`，也不会在开关关闭时自动混入分发清单。
 
@@ -90,7 +90,7 @@ Google Antigravity 通过官方中心目录管理插件，第三方技能族插�
 - `skill-failure-auditor`（`1.1.19`）：`git clone --branch skill-failure-auditor-v1.1.19 https://github.com/ifoohoo/skill-failure-auditor.git ~/.gemini/config/plugins/skill-failure-auditor`
 - `skill-family-audit`（`1.1.67`）：`git clone --branch skill-family-audit-v1.1.67 https://github.com/ifoohoo/skill-family-audit.git ~/.gemini/config/plugins/skill-family-audit`
 - `skill-family-docs`（`0.7.0`）：`git clone --branch skill-family-docs-v0.7.0 https://github.com/ifoohoo/skill-family-docs.git ~/.gemini/config/plugins/skill-family-docs`
-- `skill-family-test`（`0.2.3`）：`git clone --branch skill-family-test-v0.2.3 https://github.com/ifoohoo/skill-family-test.git ~/.gemini/config/plugins/skill-family-test`
+- `skill-family-test`（`0.2.4`）：`git clone --branch skill-family-test-v0.2.4 https://github.com/ifoohoo/skill-family-test.git ~/.gemini/config/plugins/skill-family-test`
 
 ## 已退役归档与迁移指引
 

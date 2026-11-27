@@ -4,7 +4,7 @@
 
 Verified skill-family lifecycle plugins for Claude Code, CodeBuddy/WorkBuddy, OpenAI Codex, and Kimi Code.
 
-**Marketplace version:** `20261127191200`
+**Marketplace version:** `20261127225800`
 
 This repository contains only the marketplace manifests — plugin implementations live in their own repositories.
 
@@ -71,7 +71,7 @@ git config --global --unset-all \
 | skill-failure-auditor | 1.1.19 | `ifoohoo/skill-failure-auditor` | ✓ | ✓ | ✓ | ✓ | — |
 | skill-family-audit | 1.1.67 | `ifoohoo/skill-family-audit` | ✓ | ✓ | ✓ | — | — |
 | skill-family-docs | 0.7.0 | `ifoohoo/skill-family-docs` · [Docs](https://ifoohoo.github.io/skill-family-doc-render-site/) | ✓ | ✓ | ✓ | ✓ | — |
-| skill-family-test | 0.2.3 | `ifoohoo/skill-family-test` | ✓ | ✓ | ✓ | ✓ | ✓ |
+| skill-family-test | 0.2.4 | `ifoohoo/skill-family-test` | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 "✓" means the plugin is listed in that platform's manifest; "—" means it is not. The `platforms` field in the source is the sole explicit distribution switch; CodeBuddy/WorkBuddy's official fallback to `.claude-plugin/plugin.json` does not change distribution status.
 
@@ -88,7 +88,7 @@ Google Antigravity manages plugins through its official central directory. Third
 - `skill-failure-auditor` (`1.1.19`): `git clone --branch skill-failure-auditor-v1.1.19 https://github.com/ifoohoo/skill-failure-auditor.git ~/.gemini/config/plugins/skill-failure-auditor`
 - `skill-family-audit` (`1.1.67`): `git clone --branch skill-family-audit-v1.1.67 https://github.com/ifoohoo/skill-family-audit.git ~/.gemini/config/plugins/skill-family-audit`
 - `skill-family-docs` (`0.7.0`): `git clone --branch skill-family-docs-v0.7.0 https://github.com/ifoohoo/skill-family-docs.git ~/.gemini/config/plugins/skill-family-docs`
-- `skill-family-test` (`0.2.3`): `git clone --branch skill-family-test-v0.2.3 https://github.com/ifoohoo/skill-family-test.git ~/.gemini/config/plugins/skill-family-test`
+- `skill-family-test` (`0.2.4`): `git clone --branch skill-family-test-v0.2.4 https://github.com/ifoohoo/skill-family-test.git ~/.gemini/config/plugins/skill-family-test`
 
 ## Retired & Archived Plugins
 

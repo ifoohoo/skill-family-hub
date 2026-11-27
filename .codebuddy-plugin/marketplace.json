@@ -4,7 +4,7 @@
   "owner": {
     "name": "ifoohoo"
   },
-  "version": "20261127191200",
+  "version": "20261127225800",
   "plugins": [
     {
       "name": "foundation-adoption-review",
@@ -66,11 +66,11 @@
       "source": {
         "source": "github",
         "repo": "ifoohoo/skill-family-test",
-        "ref": "skill-family-test-v0.2.3",
-        "sha": "727cbfcd4c2409d20efe471320d7c386c0f32a21"
+        "ref": "skill-family-test-v0.2.4",
+        "sha": "48c129958c9c1b1fcdf46e925d352b47a97e80e9"
       },
       "description": "Plans bounded tests for skill-family changes and organizes authorized execution, valid reuse, and result handoff under an accepted plan.",
-      "version": "0.2.3"
+      "version": "0.2.4"
     }
   ]
 }
