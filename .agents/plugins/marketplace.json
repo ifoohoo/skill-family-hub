@@ -37,8 +37,8 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ifoohoo/skill-failure-auditor",
-        "ref": "refs/tags/skill-failure-auditor-v1.1.19",
-        "sha": "e82be07bf720e5e967d12d9a5dafd06c8fe61e25"
+        "ref": "refs/tags/skill-failure-auditor-v1.1.20",
+        "sha": "59221b31daa0a71ae759a4747e8db9acfb5d57a0"
       },
       "policy": {
         "installation": "AVAILABLE",

@@ -4,7 +4,7 @@
 
 Verified skill-family lifecycle plugins for Claude Code, CodeBuddy/WorkBuddy, OpenAI Codex, and Kimi Code.
 
-**Marketplace version:** `20261127225800`
+**Marketplace version:** `20261128022100`
 
 This repository contains only the marketplace manifests — plugin implementations live in their own repositories.
 
@@ -68,7 +68,7 @@ git config --global --unset-all \
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | foundation-adoption-review | 0.39.2 | `ifoohoo/foundation-adoption-review` · [Docs](https://ifoohoo.github.io/skill-family-foundation-site/) | ✓ | ✓ | ✓ | ✓ | ✓ |
 | release-skill | 0.10.5 | `ifoohoo/release-skill` | ✓ | ✓ | ✓ | ✓ | ✓ |
-| skill-failure-auditor | 1.1.19 | `ifoohoo/skill-failure-auditor` | ✓ | ✓ | ✓ | ✓ | — |
+| skill-failure-auditor | 1.1.20 | `ifoohoo/skill-failure-auditor` | ✓ | ✓ | ✓ | ✓ | — |
 | skill-family-audit | 1.1.67 | `ifoohoo/skill-family-audit` | ✓ | ✓ | ✓ | — | — |
 | skill-family-docs | 0.7.0 | `ifoohoo/skill-family-docs` · [Docs](https://ifoohoo.github.io/skill-family-doc-render-site/) | ✓ | ✓ | ✓ | ✓ | — |
 | skill-family-test | 0.2.4 | `ifoohoo/skill-family-test` | ✓ | ✓ | ✓ | ✓ | ✓ |
@@ -85,7 +85,7 @@ Google Antigravity manages plugins through its official central directory. Third
 
 - `foundation-adoption-review` (`0.39.2`): `git clone --branch foundation-adoption-review-v0.39.2 https://github.com/ifoohoo/foundation-adoption-review.git ~/.gemini/config/plugins/foundation-adoption-review`
 - `release-skill` (`0.10.5`): `git clone --branch release-skill-v0.10.5 https://github.com/ifoohoo/release-skill.git ~/.gemini/config/plugins/release-skill`
-- `skill-failure-auditor` (`1.1.19`): `git clone --branch skill-failure-auditor-v1.1.19 https://github.com/ifoohoo/skill-failure-auditor.git ~/.gemini/config/plugins/skill-failure-auditor`
+- `skill-failure-auditor` (`1.1.20`): `git clone --branch skill-failure-auditor-v1.1.20 https://github.com/ifoohoo/skill-failure-auditor.git ~/.gemini/config/plugins/skill-failure-auditor`
 - `skill-family-audit` (`1.1.67`): `git clone --branch skill-family-audit-v1.1.67 https://github.com/ifoohoo/skill-family-audit.git ~/.gemini/config/plugins/skill-family-audit`
 - `skill-family-docs` (`0.7.0`): `git clone --branch skill-family-docs-v0.7.0 https://github.com/ifoohoo/skill-family-docs.git ~/.gemini/config/plugins/skill-family-docs`
 - `skill-family-test` (`0.2.4`): `git clone --branch skill-family-test-v0.2.4 https://github.com/ifoohoo/skill-family-test.git ~/.gemini/config/plugins/skill-family-test`
